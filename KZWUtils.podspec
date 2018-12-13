@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KZWUtils'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of KZWUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'KZWUtils/Classes/**/*'
-  s.dependency 'MJRefresh'
-  s.frameworks = 'UIKit'
+  s.source_files = 'KZWUtils/Classes/KZWUtils.h'
+  s.subspec 'Content' do |ss|
+      ss.source_files = 'KZWUtils/Classes/*'
+      ss.exclude_files = 'KZWUtils/Classes/KZWUtils.h'
+      ss.resource_bundles = {
+          'KZWUI' => 'KZWUtils/Assets/*.xcassets'
+      }
+      ss.dependency 'MJRefresh'
+      ss.frameworks = 'UIKit', 'Security','MapKit' , 'WebKit' , 'AudioToolbox'
+  end
+  
  
 end
