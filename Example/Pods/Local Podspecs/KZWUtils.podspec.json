@@ -1,0 +1,27 @@
+{
+  "name": "KZWUtils",
+  "version": "0.1.0",
+  "summary": "A short description of KZWUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ouyrp/KZWUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ouyrp": "rp.ouyang001@bkjk.com"
+  },
+  "source": {
+    "git": "https://github.com/ouyrp/KZWUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KZWUtils/Classes/**/*",
+  "dependencies": {
+    "MJRefresh": [
+
+    ]
+  }
+}

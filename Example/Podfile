@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KZWUtils_Example' do
+  pod 'KZWUtils', :path => '../'
+
+  target 'KZWUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
