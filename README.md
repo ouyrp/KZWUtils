@@ -22,7 +22,7 @@ pod 'KZWUtils'
 
 ## Author
 
-ouyrp, rp.ouyang001@bkjk.com
+ouyrp, mooncoder@163.com
 
 ## License
 
