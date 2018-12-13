@@ -1,5 +1,5 @@
 PODS:
-  - KZWUtils (0.1.0):
+  - KZWUtils (1.0.0):
     - MJRefresh
   - MJRefresh (3.1.15.7)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KZWUtils: e6f350cc3237665dddc42284ca288f717ce31007
+  KZWUtils: 7e8ae4774fd9021c898b32139633c993a81f8722
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
 
 PODFILE CHECKSUM: ca7c22e21e67e67f04ae4d2b67fb35567da2bdf6
