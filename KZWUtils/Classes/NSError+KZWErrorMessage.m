@@ -11,29 +11,29 @@
 @implementation NSError (KZWErrorMessage)
 - (NSString *)message {
   NSDictionary *userInfo = self.userInfo;
-  return userInfo[KZWBNetworkUserMessage] ? userInfo[KZWBNetworkUserMessage] : @"服务异常";
+  return userInfo[KZWNetworkUserMessage] ? userInfo[KZWNetworkUserMessage] : @"服务异常";
 }
 
 - (NSString *)businessMessage {
-  if (self.code == KZWBNeteworkBusinessError) {
+  if (self.code == KZWNeteworkBusinessError) {
     NSDictionary *userInfo = self.userInfo;
-    return userInfo[KZWBNetworkUserMessage];
+    return userInfo[KZWNetworkUserMessage];
   }
   return nil;
 }
 
 - (NSString *)businessMessage:(NSString *)defaultMessage {
-  if (self.code == KZWBNeteworkBusinessError) {
+  if (self.code == KZWNeteworkBusinessError) {
     NSDictionary *userInfo = self.userInfo;
-    return userInfo[KZWBNetworkUserMessage];
+    return userInfo[KZWNetworkUserMessage];
   }
   return defaultMessage;
 }
 
 - (NSString *)businessErrorCode {
-  if (self.code == KZWBNeteworkBusinessError) {
+  if (self.code == KZWNeteworkBusinessError) {
     NSDictionary *userInfo = self.userInfo;
-    return userInfo[KZWBNetworkBusinessErrorCode];
+    return userInfo[KZWNetworkBusinessErrorCode];
   }
   return nil;
 }

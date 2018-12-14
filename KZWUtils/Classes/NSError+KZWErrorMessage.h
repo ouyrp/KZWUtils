@@ -8,18 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
-static NSString *KZWBNetworkErrorDomain = @"KZWBNetworkErrorDomain";
+static NSString *KZWNetworkErrorDomain = @"KZWNetworkErrorDomain";
 
-static NSString *KZWBNetworkUserMessage = @"userErrorMessage";
+static NSString *KZWNetworkUserMessage = @"userErrorMessage";
 
-static NSString *KZWBNetworkBusinessErrorCode = @"businessErrorCode";
+static NSString *KZWNetworkBusinessErrorCode = @"businessErrorCode";
 
-typedef NS_ENUM(NSUInteger, KZWBNeteworkErrorCode) {
-  KZWBNeteworkResponseDataError = 300,
-  KZWBNeteworkBusinessError = 500,
+typedef NS_ENUM(NSUInteger, KZWNeteworkErrorCode) {
+    KZWNeteworkResponseDataError = 1000,
+    KZWNeteworkBusinessError = 10001,
+    KZWNeteworkError = 10002
 };
 
-@interface NSError (KZWBErrorMessage)
+@interface NSError (KZWErrorMessage)
 
 /**
  *  用户错误提示信息
