@@ -7,115 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		028AAF9B91E40251FFCDE22CA515CAC7 /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC3FE31EA045EE2626E2750911E778B /* UITabBar+CustomBadge.m */; };
-		02AE6C1DC800BB997ECD929C0A201755 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C462EB7C5A1BFAAAA88A2A69302D6D0D /* MJRefreshAutoGifFooter.m */; };
-		0A2E15DA01F22B7ADBC9B420A5057391 /* UIControl+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F64FCDD8891911B11C786D9B1B05F4 /* UIControl+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AB66424EF61EBBA3E22EE3F3F78B3BE /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 95959F04C94DDA65B9FFB6C650CFFA32 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AC38D49410812F9C6405EEF74D5EB08 /* UITableView+KZWTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD9CFC62903EED71B51E2834852EA3 /* UITableView+KZWTableView.m */; };
-		23536B7EE12D91D6008AE20359737527 /* KZWCorrectLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CD47EDDD28ED3DD67B35F1BA73A321 /* KZWCorrectLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23BCCD5B30B2BFB141EA335222A0B816 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FCFA9C7618D0EF63681404B1649D15 /* MJRefreshBackFooter.m */; };
-		23E462E5686798BF17E8833FDE715EA3 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FF7AF8A14C7B50C338359C13B34F2 /* MJRefreshAutoNormalFooter.m */; };
-		24CBC147A96BED97C8CAC94A4235ED43 /* UITabBarItem+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 490CA6CF4709FEDC78D207F7177AE128 /* UITabBarItem+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2629A3D4F2FD72BB8A3684A8228DCBC4 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E7FFE3499454CF2099186410BBF06F /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C287FD74F86C88D5D38191FAEC41053 /* UILabel+KZWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9FF5604BCD1D3758AF63D6FA6E884 /* UILabel+KZWLabel.m */; };
-		2CB837173B985374B3EA8CC243DDD174 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 304CC5D3C2AF74487F5E51E2BD351C87 /* MJRefresh.bundle */; };
-		2CBF1631125E89651DF88278BCF7C27D /* KZWRSAenscryptString.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A346BB4507CF74E441D3617735682D /* KZWRSAenscryptString.m */; };
-		2EA242ED7E627AF9ED4E5492DD0CC3BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF00A0D63E8ACFFCAAD0751CF286027 /* UIKit.framework */; };
-		2EC6F9CAFDE8742B7CDE70249A371D19 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D41D1554C3DE17E345812F29D04C04 /* NSObject+Dictionary.m */; };
-		2F57B8C5641B09D9167E473D16E2C6BC /* NSURL+KZWFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD732E9C1FB60FB3913FF0CCECDB8C9 /* NSURL+KZWFoundation.m */; };
+		0234AFD81661B037738E587595EE19D4 /* NSObject+KZWAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A27FAF94227BFB12E74140FD10180B9 /* NSObject+KZWAssociatedObject.m */; };
+		15A81FBC0239662067ED7357EBB6F81B /* UIControl+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF31952844D8C74D20D1C5D1A1ADF44 /* UIControl+Block.m */; };
+		15AF0BEE7C5B73F9FC19EDDB82F87367 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE37D6C27365FC5DB7076DB6A5080B /* MJRefreshComponent.m */; };
+		1A2CAB9DD6DE29148AAA7507FFE0AD70 /* KZWDebugService.h in Headers */ = {isa = PBXBuildFile; fileRef = 57815B95A940D764C0B1F723B0E3DFDA /* KZWDebugService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C82D0092335B24CBBDB73F42252DC94 /* KZWUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB96F76C371ACFE5C8D1A9F9DC65A685 /* KZWUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D9ABD4FBEF071C5640E301DA7232287 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CA0A599AA99D8D4849BE6F09120B4 /* MJRefreshAutoFooter.m */; };
+		241446977DD8A32874D0320CDB858461 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CCB235447F3E18360C0DAB5E88F117 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24524CC972FD09A61CF0F21790FAC787 /* UIControl+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E71196EFBB78229B77F13B3806D4518 /* UIControl+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2470AEA6E332AB6B9CAC189759161A36 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E6152B094EC2308994892CDDA977AECA /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27EEC65C7E7B4517E1903EA1299CAAA0 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AD80BC1238C1F025946C78EA689F9FD6 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29B48FDE863E871C3DC59140A322D08D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B103E0E0EAEAD40FF4B4429E09D70E /* WebKit.framework */; };
+		2A0DDB15EAA2B26A15554F5379C5BDC6 /* KZWCorrectLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D8B12253EB469C276161F2BB4DC76 /* KZWCorrectLocation.m */; };
+		2A979B74409B2765B44BEE6635AA10E2 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7796E0B84D08F3954CB2285480571B /* MJRefreshStateHeader.m */; };
+		2A98735318568E336470FF35B2C8055A /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FCFA9C7618D0EF63681404B1649D15 /* MJRefreshBackFooter.m */; };
+		3057FEB2E6B519CA788E3F01341601C3 /* NSString+KZWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2E92340A0CF0A3F11E74EA105CCE84 /* NSString+KZWFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30EA3A38679AB8C1D71EA85D0F35F797 /* Pods-KZWUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F14517951A05884EF6568C5064F8D26 /* Pods-KZWUtils_Tests-dummy.m */; };
-		31493EA820C0511F16914FC69349CABB /* UIButton+KZWButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 335A9F33F16399713E214888952C7F92 /* UIButton+KZWButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		326F934AF5D58A49143E3F4E43AC1B84 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DBD653F2D083BF866FD821BDED8FE0 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33148D4DE9E259F14F7DB90AE09A2588 /* NSString+KZWData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D8BC109559ED33F27A43B72075E8A /* NSString+KZWData.m */; };
-		337F94AAB2E3FA71E471039E99FB95B0 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD495E243B865555CCA84971329BB72 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3556FFF8104970177B2EFE65348F9C28 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CA0A599AA99D8D4849BE6F09120B4 /* MJRefreshAutoFooter.m */; };
-		3686459811CC3182E7586C9235BB5929 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACC47ED652C3A45F4AFC7ED038A9741 /* MJRefreshAutoStateFooter.m */; };
-		36DC63D4643366764B8DCBD3877CDC11 /* UIView+KZWCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FEC068B595BF345D78ACFE936A0A16 /* UIView+KZWCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37C597A8BEA0AAE1FAC977DCDC2319D4 /* UILabel+KZWLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA732413BC1A85E2720E392A28BE3AF /* UILabel+KZWLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		384BDDEDB29F8340734D674605A3DA5F /* KZWConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 889E463855BD02619644BAF217AD99CF /* KZWConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AA0CFF38C0FA8EFD01BEEB7AD9D945C /* UIControl+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 035904037A274D84D912BBD6FC3E8EDC /* UIControl+Block.m */; };
-		3F91C45C60CE20AC5953A1131A7DBD39 /* UITableView+KZWTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4E06143A0510DE0D2D9B4655E739EE /* UITableView+KZWTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40A2EC0A541BC3312B0703F67D49DEE1 /* NSError+KZWErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F44560AE6C51466D0E6541F0F4FFDE /* NSError+KZWErrorMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42F175E2A3EAC8CD32FE652DC6ECAB60 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D8958DD64D4F8B06313515F077270881 /* MJRefreshConst.m */; };
-		44D5AC636DDF07E061353122757EBB9F /* KZWRSAenscryptString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5D87A399951FBD5D8E697804284348 /* KZWRSAenscryptString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		485A015D6AB4050A69DF187CEDE539F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F81D6769D6F52947E9765CCB3DD0657 /* Foundation.framework */; };
-		4B3324A5D5231E398DBB6A7A6EE92F1A /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF3ED4117E8669D0A80A95FA78F1B70 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C4FE6EC44049C238B7757350143A4B2 /* UITabBar+CustomBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C52C0C48EA1FBD412FA72C7AB73A868 /* UITabBar+CustomBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		544490A4688D8CFCC21E4D13273A9323 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7796E0B84D08F3954CB2285480571B /* MJRefreshStateHeader.m */; };
-		552DF2175BE05ECEC3CA40AAA78201CA /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 2970467A63AAFA0B9F669E070084CED3 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		585B4643AA21BEEF8EFCAEE754AA4030 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = A65AF0DDBD5843EF6BE10063EC1DE255 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5975D3DBBE6C1D74CF442BB93EAF811F /* KZWImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C84215E50BB427452C9DDA6CA9D281 /* KZWImageCacheManager.m */; };
-		5EAB092182CB149758BF7EB26E1198E1 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AAF1C3C81270C477811E90BCD5614 /* NSBundle+MJRefresh.m */; };
-		608E0D2EBA66321AE1A79DFBDE0551BD /* KZWDebugService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806C784DE655ADFF4C564B69CFAE8E7 /* KZWDebugService.m */; };
+		330615915C5C226750D4887B39AD2CDD /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1CC5B1CE4B106461CE38F0B1BAAC9 /* UIView+MJExtension.m */; };
+		33A10B298A78BE9DE6E023402DBB0562 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 772828D7C1B5EC016F2A391EE2153D58 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		368503EC8E240E324B02DB4EF94092EF /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7F9AE22051BDBE67493DD290EC5FD9 /* MJRefreshNormalHeader.m */; };
+		393A4D6EC78936A21EFEB73D947F3314 /* KZWUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F81C59E8B53E2D7A3B5A11872BC30588 /* KZWUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC3702770EB80E862AC4CD48536041B /* UIView+KZWCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7813C6D2743B3A2C1E56997FE0291606 /* UIView+KZWCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CF8F7665C990EB024547F08024E62A8 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E087BFF5A4C96024394F46FAB373F0 /* MJRefreshBackGifFooter.m */; };
+		3EB694D221BCAAD96900E9D96C04D67E /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FF7AF8A14C7B50C338359C13B34F2 /* MJRefreshAutoNormalFooter.m */; };
+		413A75696A06421565DB27E5A69D2C6F /* NSString+KZWFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0600D7CB311EF8606FA1330D76F4E80 /* NSString+KZWFoundation.m */; };
+		4254776764F0AD8053F7FC171DA1B765 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFF53AD350C451AB460146DCCBEBF2D /* MapKit.framework */; };
+		44C62D133B1F50782FB7672038F897B4 /* KZWEnvironmentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 267F315EDA265EC5EC8A65C7103E10EE /* KZWEnvironmentManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46D3E855CD27EC17C79942572C962B59 /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D08C87668D5079F8C4B61B3D95436F64 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		477D8B8AD64234EFCBB8B6BCF6A3A4F3 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D88BEDD1B5B89A24603DEEDA27376E2 /* MJRefreshHeader.m */; };
+		48844BD2EE8E6EB0CCA7D0018D45CB48 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0799BB500F75019954F20434A4457B /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D71BB544C1546C80380FECB38563489 /* UILabel+KZWLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = D66F3803BC1C1286817EA1312951ADE4 /* UILabel+KZWLineSpace.m */; };
+		4D96FAAD275D78A754A22C3FF04937FC /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7138E83C97F3EC563EB9978E38F353A7 /* UITabBar+CustomBadge.m */; };
+		4DC1713B58776A03536F9635A54EC83D /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFB5C2A3FCF292E4C8F9355FD0F053 /* MJRefreshGifHeader.m */; };
+		5058438BB3863A987D87DE8D75986231 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E12C430C516EAB8F89E8EE25C01DD294 /* NSObject+Dictionary.m */; };
+		52318ADB6A669F82B9AAEA3184F33237 /* KZWEnvironmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 839728E9289FCCA0CC5D158E183EE8B5 /* KZWEnvironmentManager.m */; };
+		559FAD88E15FF9EA010F1E165B5EBD5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC76B554876C1EE41E58A9FCF245D86 /* UIKit.framework */; };
+		56F40D37FD94A59D81E4E3C8BDC00115 /* UITabBarItem+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 99629DBB408145E053B6640C070E3362 /* UITabBarItem+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5980A5E4F43A4BC726D4862B66F98EA3 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = A65AF0DDBD5843EF6BE10063EC1DE255 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A0E6902EFC9CDFA329A0BE536CBA98E /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FF1A0FB915D51EBFBE9B0C0D45453B /* MJRefreshBackNormalFooter.m */; };
+		5E04466587630E0765B8F07762A8A942 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACC47ED652C3A45F4AFC7ED038A9741 /* MJRefreshAutoStateFooter.m */; };
+		607BF4862F6E3960C22965BE05A01846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24091C087972B6DE58297C8A5C3C0F5 /* Foundation.framework */; };
 		609DC527EBC8BD08D28E4D4025B3CCFD /* Pods-KZWUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B611EF9A61A9DFC589F7BCED1C6942D7 /* Pods-KZWUtils_Example-dummy.m */; };
-		60B1C76BD7BF3DBBDFCAB7671113832F /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A4DE4AFFF1344A5481B9EE94ABAC4 /* UIScrollView+MJRefresh.m */; };
-		66BF690CD739B2C575EDD70039ED3338 /* UIImageView+KZWCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FC52C8EF8802F7F2CDAD7006C1B1E8 /* UIImageView+KZWCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6782B70EFF1518979A470D8BF700DD6D /* UIScrollView+KZWRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 253F07D9AAA975DD50D7AA3065516556 /* UIScrollView+KZWRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AA6F6C0C60267B040383FCBEA4705A8 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E6643DEB2913C3EFD0B2310908C6B17D /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F5B6A4957C45BF0CE0D01F8C937A414 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E087BFF5A4C96024394F46FAB373F0 /* MJRefreshBackGifFooter.m */; };
-		7109447A8B31B5C0979B0BE57D983788 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF9F7454D6F6BFD295023CF64ADB47E /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D229CF19F65838B79D4CB4F4592129 /* UIView+KZWCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E06D0246E79B6ECD49A7372C4FCAF1 /* UIView+KZWCore.m */; };
+		660B20CF3777B4F52FD0D7559BEF12BF /* UIApplication+KZWFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA380D293E07D4E8C9D199829ECD67 /* UIApplication+KZWFoundation.m */; };
+		7182E2631E61AE5079F7DC6FDD1E617A /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C23E1E6318B348FCCC3E275C3A11B2 /* RSA.m */; };
 		72781C3BDCBD43E10638C7459CE39FF6 /* Pods-KZWUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6CF8606D9A40248E37C5698C21DC6E8 /* Pods-KZWUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		739E68EC38CA6724A215FEC07A4F1172 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAEEE9EA8C877129162DF415EC42702 /* Images.xcassets */; };
-		73A60AFC629BA6CA0CCF173A23E90DA5 /* UIScrollView+KZWRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B145BC10CBD127193F50A39FE9996 /* UIScrollView+KZWRefresh.m */; };
-		7412C10DAFA14D070F67B266597FDFD4 /* NSError+KZWErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF3CF420483EE48469540668BE2E72E /* NSError+KZWErrorMessage.m */; };
-		7DE0B06531CA8865FEAAFC0E15AE5854 /* NSObject+KZWAssociatedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0E908276C3B02D415E3AB15F84DBF3 /* NSObject+KZWAssociatedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		814AF47E5614F1F9FC6ADE2BE2D94488 /* KZWDebugService.h in Headers */ = {isa = PBXBuildFile; fileRef = 711A602D1909368502735F3EE840451C /* KZWDebugService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87532B8427B54B68120A520DE8FC084C /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB85872E4A6D77EF34A4406333D059E /* RSA.m */; };
-		8AB0FFEC9999E48B08B393370ACA3DE4 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D452368B1E23E34CF464E99127DB84 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CEF128E9B562D929FF373BF7464A962 /* UITabBarItem+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20EB935D942B3F5E81B0F8F08CC932 /* UITabBarItem+WebCache.m */; };
-		8D28A3BA5BEA63831FECBEF8DE4003D0 /* UIApplication+KZWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCD424B72FACF06541C481F4B0945E9 /* UIApplication+KZWFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		914D07DDABB5763B6B574CCD746761D1 /* KZWUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC771CFBA6FC717C0826C9A0161D753 /* KZWUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91B3507BEDB3016B97D84B3C254BA75A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F81D6769D6F52947E9765CCB3DD0657 /* Foundation.framework */; };
-		981A6E4ADE9959CA9BFE636C869815E6 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D88BEDD1B5B89A24603DEEDA27376E2 /* MJRefreshHeader.m */; };
-		9839F9B4C73D61D5432D3FE480AB7C62 /* UILabel+KZWLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E3A3F7156B103E06D623418C78CA77 /* UILabel+KZWLineSpace.m */; };
-		9B58F453FE906E2302EC6F95EB968404 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFB5C2A3FCF292E4C8F9355FD0F053 /* MJRefreshGifHeader.m */; };
-		9C26FF4229CABD6A4E133EA7F8727770 /* KZWEnvironmentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C1887C0EEEE809F722C1ECB98067B2 /* KZWEnvironmentManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F0F9FFD6BF0BF7321AFC19E21364A67 /* NSObject+KZWAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CF0C609501F0768A8870C2437B251E /* NSObject+KZWAssociatedObject.m */; };
-		A027AB9EC27311409DBD40DC3B301355 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 772828D7C1B5EC016F2A391EE2153D58 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0C37F6B0A864EF07282EE5643E65844 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B572762D25AE884A6E6025CD584CA279 /* UIScrollView+MJExtension.m */; };
-		A4A9D998492820D3284FCA1324D59784 /* NSString+KZWData.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BDB2DCF1A03224BFF33A0700C133F9 /* NSString+KZWData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6EF438D88CF89084156BCAEA904F76A /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E1B990CE4C4CD728A278B17E09A203 /* MJRefreshFooter.m */; };
-		B1B0F1E8BDAF1F0E773D390F69A0FB3E /* KZWUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 042E8709671B2B382E88E4E2182D8190 /* KZWUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4D6B08EEFDA859BE4E21463BB699669 /* UIColor+KZWColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26689F96FDBCBA9E9E5049E7F323B294 /* UIColor+KZWColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBF9ECB5C3D6ADC9734BDC22F10B0684 /* NSURL+KZWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0247B008F1E8E88E733E71A2BD122C6B /* NSURL+KZWFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDB65E906CF7C7AA00EB9C596093BB67 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7F9AE22051BDBE67493DD290EC5FD9 /* MJRefreshNormalHeader.m */; };
-		BE762716A5EBCA9EEE934AB13873367F /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = F1604E7B9DB88EF0843279A3CF2928F5 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1777FA666FE774A52DEF717121C606E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F81D6769D6F52947E9765CCB3DD0657 /* Foundation.framework */; };
-		C1D41F1C3C664760B783483BB0834D72 /* UIImageView+KZWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1C7157C7562324F7B447A22F9A668 /* UIImageView+KZWCache.m */; };
-		C46959A4E8EA18F44D12E3873266572A /* UILabel+KZWLineSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 7044CCE575B40C1638CECAAE5ECC64ED /* UILabel+KZWLineSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4E257B5178554C1B8DE1D98C33F13C0 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7D6998A720A4F72C5E60295FBAC081 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBB63B54344495AAE0009D651A912C6A /* KZWEnvironmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7BD5C75922AACCE9D322F2C7866C14 /* KZWEnvironmentManager.m */; };
-		CC97D91269B17FCFF20593AC9974B9F8 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F9717796B8BB5A0C18C41CD9A84856 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE875A56670B09BF430C5FAA8D3A5352 /* UIApplication+KZWFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DFEE8CE1AFB594829B115384356632 /* UIApplication+KZWFoundation.m */; };
-		D0AAA8683A227A9795418DB1E24344DC /* UINavigationController+KZWBackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB6A23A18781FE155264CBA2B421062 /* UINavigationController+KZWBackButtonHandler.m */; };
-		D0AD2D2A57A4A7EEF5B1C66E150A6E76 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = D3494A5480373FC3C9BDB523B7E08DB9 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4F9932E3F0A44E38D55E9FC0AB71EC1 /* KZWUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB918D990D25121F5BEC820092DAF410 /* KZWUI.bundle */; };
-		D5B9B0876E1825F1764F9100F9F827BE /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CCA8DD82EF1C1B58D82DE0271EB93F /* MJRefresh.framework */; };
-		D5DDFDB4044BF2E5F9EAD7698679DA42 /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 980D02C8B3981AE7BC76DBD06E652EF2 /* NSObject+Dictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D909ECB3D24955BB64E64CFDBECFC95E /* UIView+KZWCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB046FBC79E9A8E409F3607E0D21FA /* UIView+KZWCore.m */; };
-		D926F56945A40D88CA464BC92BC58740 /* KZWUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF010D84D691F29152E3080234632581 /* KZWUtils-dummy.m */; };
-		D993C6A5192C8006783F30C41863C0DD /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CCB235447F3E18360C0DAB5E88F117 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBBEBF439ED48D430F316CBBD4C4042F /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D08C87668D5079F8C4B61B3D95436F64 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73D9052F6C4580F34158F50E7E2DD067 /* NSString+KZWData.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0041D253D94351B9EF5386038A019D /* NSString+KZWData.m */; };
+		74C7D105055E78B35ACB97A897FA9FA0 /* KZWUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6E490875791807512DF33EBE6944C8 /* KZWUtils-dummy.m */; };
+		762696B09BDBFD068E37C264EBFA212B /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 2970467A63AAFA0B9F669E070084CED3 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775122D644CFCC44E54E14AC0055B9A6 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A4DE4AFFF1344A5481B9EE94ABAC4 /* UIScrollView+MJRefresh.m */; };
+		77994F784D1657C4958726FCF6DCA721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24091C087972B6DE58297C8A5C3C0F5 /* Foundation.framework */; };
+		78061F8D5F35259F749B022568BD1DD5 /* UIButton+KZWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE122AC8CB809B28B9ECB5366A050C08 /* UIButton+KZWButton.m */; };
+		794AF32115BC957B843806D0EE06E4DC /* UILabel+KZWLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3870BD5BCE24B8098A2FDEBF3659DE02 /* UILabel+KZWLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A9029AC628017D13D797BC7CFBB7F8 /* KZWCorrectLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C52EF7D498664F1AFEC64B70DD737A /* KZWCorrectLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ABCCB71EE33267CBBFEC55C5E9E0CCD /* KZWConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD34593175D600B35EAF071AF8052BA /* KZWConstants.m */; };
+		7B6D9D45B8FFD870938A27E83C46E8A9 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 399AAF1C3C81270C477811E90BCD5614 /* NSBundle+MJRefresh.m */; };
+		7CE91959E6887E1E531E40F9EB1B7951 /* NSString+KZWData.h in Headers */ = {isa = PBXBuildFile; fileRef = B024C97DCCBC48654274645E8FF02684 /* NSString+KZWData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82BD494597AF0EBC574D71505E7F8E36 /* UINavigationController+KZWBackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B71C8781CFB7D0AC955ECBC4D2534AB5 /* UINavigationController+KZWBackButtonHandler.m */; };
+		838B02BF6B48A5088A583CF5EE0CA69E /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C462EB7C5A1BFAAAA88A2A69302D6D0D /* MJRefreshAutoGifFooter.m */; };
+		842FF8BC51325D1075BE014289B48748 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD495E243B865555CCA84971329BB72 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C1A7A9E12D94D2D93882A428926A89 /* KZWRSAenscryptString.h in Headers */ = {isa = PBXBuildFile; fileRef = D04209E89878D70E5E6716EAD5E372EB /* KZWRSAenscryptString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F27DA793E386AACEECC13319C9FD84 /* UIApplication+KZWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F041A1B8A94123188F442D601DB7F5D8 /* UIApplication+KZWFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86139A7674AF4A9459FDF3DB0DF3AF4D /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7D6998A720A4F72C5E60295FBAC081 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C0C53E6EC1F0BF5F856830F48E646D /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E7FFE3499454CF2099186410BBF06F /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86DB95CD75453CBD72020B9343991625 /* UIScrollView+KZWRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6FD3356C6C509117DAFDFE65B97DEE /* UIScrollView+KZWRefresh.m */; };
+		873BE5602CC2A7EA299333D64CDE6382 /* RSA.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0F85F1A32EC3AB56297051F3BDC0B8 /* RSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		899B47C4CACBEC533B45DCC0E0576BAC /* UINavigationController+KZWBackButtonHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 24035C06A110C184364CD993DA695712 /* UINavigationController+KZWBackButtonHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2E8B0BE3DAD38C48873C08B68E5D3F /* UITableView+KZWTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA3F8936A124A76D13BFFB4BA61D09D /* UITableView+KZWTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D825F94817DC276B1CD59F4CEA86CE5 /* NSURL+KZWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = C260E9C7FD5333400A63208B3FDE5A0A /* NSURL+KZWFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DFA50B0C517E15EC31532677D5E4263 /* UIImageView+KZWCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D04A339512A4BF5B20B073796935322F /* UIImageView+KZWCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E0EFF8BBE30B2B681771F42967CDDC /* KZWImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8C4DA7596F1E51924DB8889D7ECC8 /* KZWImageCacheManager.m */; };
+		91576EB1E843811BC53543BA5AC38F6C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58052FBACF846588411E6C8D178C0A6B /* AudioToolbox.framework */; };
+		91B3507BEDB3016B97D84B3C254BA75A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24091C087972B6DE58297C8A5C3C0F5 /* Foundation.framework */; };
+		934EC567941798A6CBE377C5C6B50D0C /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D848AF815E0097FBB84EE1D0DC9525 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D8E484F76762B31584890AACA45B07 /* KZWDebugService.m in Sources */ = {isa = PBXBuildFile; fileRef = 965D43ADBBC3B965DC256076A327CE7A /* KZWDebugService.m */; };
+		9A899843916413B692DABACC9B365391 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F9717796B8BB5A0C18C41CD9A84856 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8FE1B1362553E1AAE49FA23932C60D /* NSURL+KZWFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7377B49069076433FB6BF2B4D53498BA /* NSURL+KZWFoundation.m */; };
+		9E4B75E1B10E3A5ED9924EB7B2525F6A /* KZWUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB918D990D25121F5BEC820092DAF410 /* KZWUI.bundle */; };
+		9FAEB45792649F1B9AB4EDF6793BE9A6 /* UIScrollView+KZWRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EC3DD35C8657A6E8869E96F78F8B45 /* UIScrollView+KZWRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A230CA6D09B26AB565DD8B4C0815BEAB /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DBD653F2D083BF866FD821BDED8FE0 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72670AC70DB479E3CF7553A0C6697DD /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF9F7454D6F6BFD295023CF64ADB47E /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8971C56AF3BBB8E5DB85D8A8CD3AF16 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = F1604E7B9DB88EF0843279A3CF2928F5 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABDE9EB226B0132C4B21671D2D618F9B /* UITabBar+CustomBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7AE49CD1015709D1A122827AFD2861 /* UITabBar+CustomBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3FB137964D8BFF135F5807C493A76AB /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D452368B1E23E34CF464E99127DB84 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDA549DBB2A3BE33D0C74665767CDA6 /* UIButton+KZWButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4C4EFA3606C005A118D19D7602AAC4 /* UIButton+KZWButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC8224B83641B73FE5D798828F3C34D4 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8186D91B544C5545B436752F384036 /* MJRefresh.framework */; };
+		BD20C4FB7071D1092934F9A211D63AC9 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22423C0D9752CE12BC99436DC3E8D200 /* MJRefreshBackStateFooter.m */; };
+		C6F8D43CD0766F2541160336A73D91DF /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 304CC5D3C2AF74487F5E51E2BD351C87 /* MJRefresh.bundle */; };
+		C8F787914FE18DA18D7A44E945DC0B63 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D156FE66233F9837692DC3CE7C7C5BE2 /* MJRefresh-dummy.m */; };
+		CF669E8F2736C36DAE8946EF3FEACBC0 /* KZWImageCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB5F8A0F03DB75D2FD9B7D90A629256 /* KZWImageCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F9EB69BF67E86B14C97B878635C3DE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621EB4FDE437091F17056DF3FA738DE3 /* Security.framework */; };
+		D3F1D02CACBAD27CF86B66CD79F72D64 /* UIColor+KZWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C267146643D55BBC22F4BD839DFF8 /* UIColor+KZWColor.m */; };
+		D733EBBD06C60DF593D62D6B4C0DD8F3 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = D3494A5480373FC3C9BDB523B7E08DB9 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB692D8D004D085A7749207EAAD7971D /* UIImageView+KZWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1626AD59CC1C187651FB6B9347680DA1 /* UIImageView+KZWCache.m */; };
+		DB914D9520B2E830847FCB328B92865A /* NSObject+KZWAssociatedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BFAF62768FB605F1577C4ADA0B28D6 /* NSObject+KZWAssociatedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF2E8C8BEB3B8B9EB8C3BEA7491F7D48 /* Pods-KZWUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8FF6C6B3BF23C939CA8D3851A2F46DF /* Pods-KZWUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08E9919995E98E1F857488B6B5AC07B /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D156FE66233F9837692DC3CE7C7C5BE2 /* MJRefresh-dummy.m */; };
-		E18ED82B70221AE2DDE657BA70ED01CA /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22423C0D9752CE12BC99436DC3E8D200 /* MJRefreshBackStateFooter.m */; };
-		E54380A7C1855C10FA1F5A80DFB469FD /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E6152B094EC2308994892CDDA977AECA /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7051A033B9B9D9C8CF0C9B1CB1776BE /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1CC5B1CE4B106461CE38F0B1BAAC9 /* UIView+MJExtension.m */; };
-		EA1A273A2F241E744CA7B204DBF91D2E /* UIButton+KZWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1519BEC9CA6D1494AD8123900D3A5C7 /* UIButton+KZWButton.m */; };
-		ECE59C8B1846494F9B6C80DD858A17A1 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FF1A0FB915D51EBFBE9B0C0D45453B /* MJRefreshBackNormalFooter.m */; };
-		F11B14CAE9D50254447A910528DA3A69 /* KZWConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 509C15D269AC54F3896B58006C08F433 /* KZWConstants.m */; };
-		F3276C2035F86AF6DF6093FEE19DEDE7 /* KZWCorrectLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DD8C43B65443A205AE853444D7358 /* KZWCorrectLocation.m */; };
-		F4008583B31A89791AC26EE3E0010FA0 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AD80BC1238C1F025946C78EA689F9FD6 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F52E801076BBC137FDE97913E835BC4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F81D6769D6F52947E9765CCB3DD0657 /* Foundation.framework */; };
-		F65D1C188D715F5AFF59189D76F8FA03 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0799BB500F75019954F20434A4457B /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7F367F42E4285A49132D4F6FEDDD056 /* NSString+KZWFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D61FA993AD00A8A98C28A505C878DC /* NSString+KZWFoundation.m */; };
-		F867C9EF46879A9B8DE1641076E416D0 /* KZWImageCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BA37F4750AFB9CC4D89EA483F4EA333F /* KZWImageCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9780DDEC7BF664CF94B96A81C249BCB /* NSString+KZWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD0B68EA91158876AA6B62439FD2B44 /* NSString+KZWFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAC87638A6601DFAA4B0CDD8F8C57BF5 /* UIColor+KZWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E19AE62BCD9582E9F21325D62C05AA9 /* UIColor+KZWColor.m */; };
-		FC899F33E2CF7FBAC57F7D46D0BD31BF /* RSA.h in Headers */ = {isa = PBXBuildFile; fileRef = AC85A24FDBA7F5D2DCE9967761B3B9F7 /* RSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD658B0C9183CE1B3919FA8E6190E0EC /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D848AF815E0097FBB84EE1D0DC9525 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE926A1CEBCE926412C94ECCB4868AC8 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE37D6C27365FC5DB7076DB6A5080B /* MJRefreshComponent.m */; };
-		FFC3D505C0048DEBFCD817A8890AD368 /* UINavigationController+KZWBackButtonHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = EA68B7A1DFD113F9B3227E4036D94030 /* UINavigationController+KZWBackButtonHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E788E2706A1B96056A3D939F087BFE81 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E1B990CE4C4CD728A278B17E09A203 /* MJRefreshFooter.m */; };
+		E8E8D08994CC85ECCF6CC610301810F3 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 95959F04C94DDA65B9FFB6C650CFFA32 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9AF0AF8DA26EFD9331C29DA3E46C3E0 /* UIColor+KZWColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C0485AB383025F8D9A53087E9FBFD2 /* UIColor+KZWColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D6802ED9B58BD8DF8CEF4C1669CBE1 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B572762D25AE884A6E6025CD584CA279 /* UIScrollView+MJExtension.m */; };
+		EB887A374EB945AE242109BE55E68207 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42AB3C40D4096653F69E290E00E43DC /* Images.xcassets */; };
+		EB93005CC2D56C867C34648306865D5A /* KZWRSAenscryptString.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2D193455C91C04B59D93D2FA1B6C2A /* KZWRSAenscryptString.m */; };
+		EEC1764C11553FE090DF9A77BF38922E /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D8958DD64D4F8B06313515F077270881 /* MJRefreshConst.m */; };
+		F06A20C39488059FEB72F6870F7BEF6F /* UILabel+KZWLineSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F73A0F08845C1C4235B1060A8182ACCE /* UILabel+KZWLineSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F150EF92510F2F86A7DBCDD4CABB2BF6 /* KZWConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE05A53AD928C80EC628BFA7D29F1AA /* KZWConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F52E801076BBC137FDE97913E835BC4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24091C087972B6DE58297C8A5C3C0F5 /* Foundation.framework */; };
+		F541E9D35F35008721A69374F3D19833 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E6643DEB2913C3EFD0B2310908C6B17D /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A69ECBE181C7FD0A6CB33BD84CA5B7 /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D3D4766C5922ED773235CBDD399A44 /* NSObject+Dictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F60146AE7B9AF59F43793BAD0E468767 /* UILabel+KZWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 208AD884ADC21F1AFF9450DEF984102D /* UILabel+KZWLabel.m */; };
+		F6C77EF19CFFB40486DB5E9562286B45 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF3ED4117E8669D0A80A95FA78F1B70 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDC2C43E8F78D46A6108561D32ADA7A4 /* UITabBarItem+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B34332A76F2B8B648770866D0B3984 /* UITabBarItem+WebCache.m */; };
+		FDF915CDB7A845E760484805C70C0849 /* UITableView+KZWTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C8BE9F35AA6F50950B44A8B592AB53 /* UITableView+KZWTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,201 +128,207 @@
 			remoteGlobalIDString = 45DDF1F7D03E8B790BDD3DE6C72F069E;
 			remoteInfo = "Pods-KZWUtils_Example";
 		};
-		550D0747AAB49764C621711577FCB172 /* PBXContainerItemProxy */ = {
+		263F127E3D4AC612CFC998FF06A7BEF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7BA938BD822FCDDEE48EE1F3BCD68ADD;
-			remoteInfo = "KZWUtils-KZWUI";
+			remoteGlobalIDString = 65DB8FBF860557721D142D027DC4CAA8;
+			remoteInfo = MJRefresh;
 		};
 		AB8E1960D33383D013C462517E55F14B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9DDCAB0642D3E055443E4318D744DF21;
+			remoteGlobalIDString = D0A6598F278399E2D3CC51E1FD078917;
 			remoteInfo = KZWUtils;
 		};
 		AE3B539E0BCF7A393F26CA4AA5A66C62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 999B26E42C965B17B6215A56978F403E;
+			remoteGlobalIDString = 65DB8FBF860557721D142D027DC4CAA8;
 			remoteInfo = MJRefresh;
 		};
-		F22560788C0041539C358552D4401448 /* PBXContainerItemProxy */ = {
+		F8F38B27B9C5F734BDCDBDCBD4C563D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 999B26E42C965B17B6215A56978F403E;
-			remoteInfo = MJRefresh;
+			remoteGlobalIDString = 64B0837DDED2C9FABC09203DD825CF7D;
+			remoteInfo = "KZWUtils-KZWUI";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01D848AF815E0097FBB84EE1D0DC9525 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
-		0247B008F1E8E88E733E71A2BD122C6B /* NSURL+KZWFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+KZWFoundation.h"; path = "KZWUtils/Classes/NSURL+KZWFoundation.h"; sourceTree = "<group>"; };
-		02AD9CFC62903EED71B51E2834852EA3 /* UITableView+KZWTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+KZWTableView.m"; path = "KZWUtils/Classes/UITableView+KZWTableView.m"; sourceTree = "<group>"; };
-		035904037A274D84D912BBD6FC3E8EDC /* UIControl+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Block.m"; path = "KZWUtils/Classes/UIControl+Block.m"; sourceTree = "<group>"; };
 		04207AC41B8D2A40CAA909B41C059C83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		042E8709671B2B382E88E4E2182D8190 /* KZWUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KZWUtils-umbrella.h"; sourceTree = "<group>"; };
-		06CD47EDDD28ED3DD67B35F1BA73A321 /* KZWCorrectLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWCorrectLocation.h; path = KZWUtils/Classes/KZWCorrectLocation.h; sourceTree = "<group>"; };
-		0B1D8BC109559ED33F27A43B72075E8A /* NSString+KZWData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KZWData.m"; path = "KZWUtils/Classes/NSString+KZWData.m"; sourceTree = "<group>"; };
-		0BA732413BC1A85E2720E392A28BE3AF /* UILabel+KZWLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+KZWLabel.h"; path = "KZWUtils/Classes/UILabel+KZWLabel.h"; sourceTree = "<group>"; };
-		159826A9F6DD3151615912B71BFD5EF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		17CCA8DD82EF1C1B58D82DE0271EB93F /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1626AD59CC1C187651FB6B9347680DA1 /* UIImageView+KZWCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+KZWCache.m"; path = "KZWUtils/Classes/UIImageView+KZWCache.m"; sourceTree = "<group>"; };
 		1ACC47ED652C3A45F4AFC7ED038A9741 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
-		1D7BD5C75922AACCE9D322F2C7866C14 /* KZWEnvironmentManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWEnvironmentManager.m; path = KZWUtils/Classes/KZWEnvironmentManager.m; sourceTree = "<group>"; };
-		20DFEE8CE1AFB594829B115384356632 /* UIApplication+KZWFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+KZWFoundation.m"; path = "KZWUtils/Classes/UIApplication+KZWFoundation.m"; sourceTree = "<group>"; };
+		208AD884ADC21F1AFF9450DEF984102D /* UILabel+KZWLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+KZWLabel.m"; path = "KZWUtils/Classes/UILabel+KZWLabel.m"; sourceTree = "<group>"; };
 		22423C0D9752CE12BC99436DC3E8D200 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		23F9717796B8BB5A0C18C41CD9A84856 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		24035C06A110C184364CD993DA695712 /* UINavigationController+KZWBackButtonHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+KZWBackButtonHandler.h"; path = "KZWUtils/Classes/UINavigationController+KZWBackButtonHandler.h"; sourceTree = "<group>"; };
 		240F5B7917D3F1FDFB931146ECB8CD6F /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
-		253F07D9AAA975DD50D7AA3065516556 /* UIScrollView+KZWRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+KZWRefresh.h"; path = "KZWUtils/Classes/UIScrollView+KZWRefresh.h"; sourceTree = "<group>"; };
 		25E1B990CE4C4CD728A278B17E09A203 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
-		26689F96FDBCBA9E9E5049E7F323B294 /* UIColor+KZWColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+KZWColor.h"; path = "KZWUtils/Classes/UIColor+KZWColor.h"; sourceTree = "<group>"; };
-		274E23C3615C3EEF481FD7F1D07A5D58 /* KZWUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KZWUtils.modulemap; sourceTree = "<group>"; };
+		267F315EDA265EC5EC8A65C7103E10EE /* KZWEnvironmentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWEnvironmentManager.h; path = KZWUtils/Classes/KZWEnvironmentManager.h; sourceTree = "<group>"; };
 		286614613E612F79BFEB401117A44B0C /* Pods-KZWUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZWUtils_Example-resources.sh"; sourceTree = "<group>"; };
 		28D452368B1E23E34CF464E99127DB84 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		28EC3DD35C8657A6E8869E96F78F8B45 /* UIScrollView+KZWRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+KZWRefresh.h"; path = "KZWUtils/Classes/UIScrollView+KZWRefresh.h"; sourceTree = "<group>"; };
 		2970467A63AAFA0B9F669E070084CED3 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
 		2A7D6998A720A4F72C5E60295FBAC081 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
 		2A8FF7AF8A14C7B50C338359C13B34F2 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
-		2C20EB935D942B3F5E81B0F8F08CC932 /* UITabBarItem+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+WebCache.m"; path = "KZWUtils/Classes/UITabBarItem+WebCache.m"; sourceTree = "<group>"; };
+		2C6FD3356C6C509117DAFDFE65B97DEE /* UIScrollView+KZWRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+KZWRefresh.m"; path = "KZWUtils/Classes/UIScrollView+KZWRefresh.m"; sourceTree = "<group>"; };
+		2CF31952844D8C74D20D1C5D1A1ADF44 /* UIControl+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Block.m"; path = "KZWUtils/Classes/UIControl+Block.m"; sourceTree = "<group>"; };
+		2EA3F8936A124A76D13BFFB4BA61D09D /* UITableView+KZWTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+KZWTableView.h"; path = "KZWUtils/Classes/UITableView+KZWTableView.h"; sourceTree = "<group>"; };
 		2F14517951A05884EF6568C5064F8D26 /* Pods-KZWUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZWUtils_Tests-dummy.m"; sourceTree = "<group>"; };
 		2FF9F7454D6F6BFD295023CF64ADB47E /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
 		304CC5D3C2AF74487F5E51E2BD351C87 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
 		31FF1A0FB915D51EBFBE9B0C0D45453B /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
-		32CF0C609501F0768A8870C2437B251E /* NSObject+KZWAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KZWAssociatedObject.m"; path = "KZWUtils/Classes/NSObject+KZWAssociatedObject.m"; sourceTree = "<group>"; };
-		335A9F33F16399713E214888952C7F92 /* UIButton+KZWButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KZWButton.h"; path = "KZWUtils/Classes/UIButton+KZWButton.h"; sourceTree = "<group>"; };
+		34C0485AB383025F8D9A53087E9FBFD2 /* UIColor+KZWColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+KZWColor.h"; path = "KZWUtils/Classes/UIColor+KZWColor.h"; sourceTree = "<group>"; };
 		3541010AF8CA254CA1EEC4A13F9D1D0E /* Pods-KZWUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZWUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		359A4DE4AFFF1344A5481B9EE94ABAC4 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		360ECE8B82BB960E8EB55FA2C0284670 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		36BFAF62768FB605F1577C4ADA0B28D6 /* NSObject+KZWAssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KZWAssociatedObject.h"; path = "KZWUtils/Classes/NSObject+KZWAssociatedObject.h"; sourceTree = "<group>"; };
+		3870BD5BCE24B8098A2FDEBF3659DE02 /* UILabel+KZWLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+KZWLabel.h"; path = "KZWUtils/Classes/UILabel+KZWLabel.h"; sourceTree = "<group>"; };
 		399AAF1C3C81270C477811E90BCD5614 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
-		3BAEEE9EA8C877129162DF415EC42702 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KZWUtils/Assets/Images.xcassets; sourceTree = "<group>"; };
+		3A27FAF94227BFB12E74140FD10180B9 /* NSObject+KZWAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KZWAssociatedObject.m"; path = "KZWUtils/Classes/NSObject+KZWAssociatedObject.m"; sourceTree = "<group>"; };
+		3A6E490875791807512DF33EBE6944C8 /* KZWUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KZWUtils-dummy.m"; sourceTree = "<group>"; };
+		3CE05A53AD928C80EC628BFA7D29F1AA /* KZWConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWConstants.h; path = KZWUtils/Classes/KZWConstants.h; sourceTree = "<group>"; };
 		3D6CA0A599AA99D8D4849BE6F09120B4 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
-		3EF00A0D63E8ACFFCAAD0751CF286027 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E71196EFBB78229B77F13B3806D4518 /* UIControl+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Block.h"; path = "KZWUtils/Classes/UIControl+Block.h"; sourceTree = "<group>"; };
 		3F4E3D12F452FC132E6CDF7698FEE86F /* Pods-KZWUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZWUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		41C1C7157C7562324F7B447A22F9A668 /* UIImageView+KZWCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+KZWCache.m"; path = "KZWUtils/Classes/UIImageView+KZWCache.m"; sourceTree = "<group>"; };
-		41E3A3F7156B103E06D623418C78CA77 /* UILabel+KZWLineSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+KZWLineSpace.m"; path = "KZWUtils/Classes/UILabel+KZWLineSpace.m"; sourceTree = "<group>"; };
-		47C1887C0EEEE809F722C1ECB98067B2 /* KZWEnvironmentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWEnvironmentManager.h; path = KZWUtils/Classes/KZWEnvironmentManager.h; sourceTree = "<group>"; };
-		4806C784DE655ADFF4C564B69CFAE8E7 /* KZWDebugService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWDebugService.m; path = KZWUtils/Classes/KZWDebugService.m; sourceTree = "<group>"; };
-		490CA6CF4709FEDC78D207F7177AE128 /* UITabBarItem+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+WebCache.h"; path = "KZWUtils/Classes/UITabBarItem+WebCache.h"; sourceTree = "<group>"; };
-		4AD0B68EA91158876AA6B62439FD2B44 /* NSString+KZWFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KZWFoundation.h"; path = "KZWUtils/Classes/NSString+KZWFoundation.h"; sourceTree = "<group>"; };
+		48B34332A76F2B8B648770866D0B3984 /* UITabBarItem+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+WebCache.m"; path = "KZWUtils/Classes/UITabBarItem+WebCache.m"; sourceTree = "<group>"; };
+		4C4586CB1DC29E0F7314D7577278BE53 /* KZWUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KZWUtils.modulemap; sourceTree = "<group>"; };
 		4CAE6C75ED4C76C205175F6EA4B9BA5C /* Pods-KZWUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZWUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4CC771CFBA6FC717C0826C9A0161D753 /* KZWUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWUtils.h; path = KZWUtils/Classes/KZWUtils.h; sourceTree = "<group>"; };
-		4D5D87A399951FBD5D8E697804284348 /* KZWRSAenscryptString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWRSAenscryptString.h; path = KZWUtils/Classes/KZWRSAenscryptString.h; sourceTree = "<group>"; };
-		509C15D269AC54F3896B58006C08F433 /* KZWConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWConstants.m; path = KZWUtils/Classes/KZWConstants.m; sourceTree = "<group>"; };
+		4DC76B554876C1EE41E58A9FCF245D86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5669E8654EC9A6A87051B599FFD55CBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AB85872E4A6D77EF34A4406333D059E /* RSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSA.m; path = KZWUtils/Classes/RSA.m; sourceTree = "<group>"; };
-		5DA37BC20AA2DB784E1673E493FBAE78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57815B95A940D764C0B1F723B0E3DFDA /* KZWDebugService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWDebugService.h; path = KZWUtils/Classes/KZWDebugService.h; sourceTree = "<group>"; };
+		58052FBACF846588411E6C8D178C0A6B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		58FD78A7598D0046E192D1A64EBA8AEB /* KZWUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KZWUtils-prefix.pch"; sourceTree = "<group>"; };
+		5E2C267146643D55BBC22F4BD839DFF8 /* UIColor+KZWColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KZWColor.m"; path = "KZWUtils/Classes/UIColor+KZWColor.m"; sourceTree = "<group>"; };
+		61D3D4766C5922ED773235CBDD399A44 /* NSObject+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Dictionary.h"; path = "KZWUtils/Classes/NSObject+Dictionary.h"; sourceTree = "<group>"; };
+		621EB4FDE437091F17056DF3FA738DE3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		623ADB0F84311131A0E44EC5B5A3869F /* KZWUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KZWUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		649D8B12253EB469C276161F2BB4DC76 /* KZWCorrectLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWCorrectLocation.m; path = KZWUtils/Classes/KZWCorrectLocation.m; sourceTree = "<group>"; };
+		68C52EF7D498664F1AFEC64B70DD737A /* KZWCorrectLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWCorrectLocation.h; path = KZWUtils/Classes/KZWCorrectLocation.h; sourceTree = "<group>"; };
+		6A4C4EFA3606C005A118D19D7602AAC4 /* UIButton+KZWButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KZWButton.h"; path = "KZWUtils/Classes/UIButton+KZWButton.h"; sourceTree = "<group>"; };
+		6BB07235D760CC971030C7FA3DD71868 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6D2E92340A0CF0A3F11E74EA105CCE84 /* NSString+KZWFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KZWFoundation.h"; path = "KZWUtils/Classes/NSString+KZWFoundation.h"; sourceTree = "<group>"; };
 		6D88BEDD1B5B89A24603DEEDA27376E2 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
-		6F81D6769D6F52947E9765CCB3DD0657 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7044CCE575B40C1638CECAAE5ECC64ED /* UILabel+KZWLineSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+KZWLineSpace.h"; path = "KZWUtils/Classes/UILabel+KZWLineSpace.h"; sourceTree = "<group>"; };
-		711A602D1909368502735F3EE840451C /* KZWDebugService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWDebugService.h; path = KZWUtils/Classes/KZWDebugService.h; sourceTree = "<group>"; };
-		72BDB2DCF1A03224BFF33A0700C133F9 /* NSString+KZWData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KZWData.h"; path = "KZWUtils/Classes/NSString+KZWData.h"; sourceTree = "<group>"; };
-		76FC52C8EF8802F7F2CDAD7006C1B1E8 /* UIImageView+KZWCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+KZWCache.h"; path = "KZWUtils/Classes/UIImageView+KZWCache.h"; sourceTree = "<group>"; };
+		7138E83C97F3EC563EB9978E38F353A7 /* UITabBar+CustomBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+CustomBadge.m"; path = "KZWUtils/Classes/UITabBar+CustomBadge.m"; sourceTree = "<group>"; };
+		7377B49069076433FB6BF2B4D53498BA /* NSURL+KZWFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+KZWFoundation.m"; path = "KZWUtils/Classes/NSURL+KZWFoundation.m"; sourceTree = "<group>"; };
 		772828D7C1B5EC016F2A391EE2153D58 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
-		79F64FCDD8891911B11C786D9B1B05F4 /* UIControl+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Block.h"; path = "KZWUtils/Classes/UIControl+Block.h"; sourceTree = "<group>"; };
-		7AB6A23A18781FE155264CBA2B421062 /* UINavigationController+KZWBackButtonHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+KZWBackButtonHandler.m"; path = "KZWUtils/Classes/UINavigationController+KZWBackButtonHandler.m"; sourceTree = "<group>"; };
+		7813C6D2743B3A2C1E56997FE0291606 /* UIView+KZWCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KZWCore.h"; path = "KZWUtils/Classes/UIView+KZWCore.h"; sourceTree = "<group>"; };
+		7A049CD6BAECB6C01B46DE073C92F428 /* ResourceBundle-KZWUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KZWUI-Info.plist"; sourceTree = "<group>"; };
 		7ACD7F225142ECBFD03C70B7CD8B0D27 /* KZWUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KZWUtils.framework; path = KZWUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8186D91B544C5545B436752F384036 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		839728E9289FCCA0CC5D158E183EE8B5 /* KZWEnvironmentManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWEnvironmentManager.m; path = KZWUtils/Classes/KZWEnvironmentManager.m; sourceTree = "<group>"; };
 		85DBD653F2D083BF866FD821BDED8FE0 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
-		889E463855BD02619644BAF217AD99CF /* KZWConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWConstants.h; path = KZWUtils/Classes/KZWConstants.h; sourceTree = "<group>"; };
 		89E7FFE3499454CF2099186410BBF06F /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
-		8BD732E9C1FB60FB3913FF0CCECDB8C9 /* NSURL+KZWFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+KZWFoundation.m"; path = "KZWUtils/Classes/NSURL+KZWFoundation.m"; sourceTree = "<group>"; };
-		8C2DD8C43B65443A205AE853444D7358 /* KZWCorrectLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWCorrectLocation.m; path = KZWUtils/Classes/KZWCorrectLocation.m; sourceTree = "<group>"; };
-		8E0E908276C3B02D415E3AB15F84DBF3 /* NSObject+KZWAssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KZWAssociatedObject.h"; path = "KZWUtils/Classes/NSObject+KZWAssociatedObject.h"; sourceTree = "<group>"; };
-		8E19AE62BCD9582E9F21325D62C05AA9 /* UIColor+KZWColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KZWColor.m"; path = "KZWUtils/Classes/UIColor+KZWColor.m"; sourceTree = "<group>"; };
-		8E4E06143A0510DE0D2D9B4655E739EE /* UITableView+KZWTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+KZWTableView.h"; path = "KZWUtils/Classes/UITableView+KZWTableView.h"; sourceTree = "<group>"; };
 		8EB47CB3D2C2F5185F7A85B11AAED992 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
 		8EF1CC5B1CE4B106461CE38F0B1BAAC9 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
-		8FBB046FBC79E9A8E409F3607E0D21FA /* UIView+KZWCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KZWCore.m"; path = "KZWUtils/Classes/UIView+KZWCore.m"; sourceTree = "<group>"; };
-		90D41D1554C3DE17E345812F29D04C04 /* NSObject+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Dictionary.m"; path = "KZWUtils/Classes/NSObject+Dictionary.m"; sourceTree = "<group>"; };
 		91E087BFF5A4C96024394F46FAB373F0 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94E32C8BE8D49840226F5A55F23D9D23 /* ResourceBundle-KZWUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KZWUI-Info.plist"; sourceTree = "<group>"; };
 		95959F04C94DDA65B9FFB6C650CFFA32 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		960BD7EC04095F1D8802E5F0F272EB12 /* KZWUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZWUtils.xcconfig; sourceTree = "<group>"; };
+		965D43ADBBC3B965DC256076A327CE7A /* KZWDebugService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWDebugService.m; path = KZWUtils/Classes/KZWDebugService.m; sourceTree = "<group>"; };
 		975FA924FCD3018B7D4298C4F97089C3 /* Pods-KZWUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZWUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97E05DEAC060C597644483926A7CD636 /* Pods-KZWUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZWUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		980D02C8B3981AE7BC76DBD06E652EF2 /* NSObject+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Dictionary.h"; path = "KZWUtils/Classes/NSObject+Dictionary.h"; sourceTree = "<group>"; };
+		99629DBB408145E053B6640C070E3362 /* UITabBarItem+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+WebCache.h"; path = "KZWUtils/Classes/UITabBarItem+WebCache.h"; sourceTree = "<group>"; };
 		9BF3ED4117E8669D0A80A95FA78F1B70 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
-		9C52C0C48EA1FBD412FA72C7AB73A868 /* UITabBar+CustomBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+CustomBadge.h"; path = "KZWUtils/Classes/UITabBar+CustomBadge.h"; sourceTree = "<group>"; };
 		9C7F9AE22051BDBE67493DD290EC5FD9 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
 		9CD495E243B865555CCA84971329BB72 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
-		A1519BEC9CA6D1494AD8123900D3A5C7 /* UIButton+KZWButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KZWButton.m"; path = "KZWUtils/Classes/UIButton+KZWButton.m"; sourceTree = "<group>"; };
+		9FB5F8A0F03DB75D2FD9B7D90A629256 /* KZWImageCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWImageCacheManager.h; path = KZWUtils/Classes/KZWImageCacheManager.h; sourceTree = "<group>"; };
+		A24091C087972B6DE58297C8A5C3C0F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A3E06D0246E79B6ECD49A7372C4FCAF1 /* UIView+KZWCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KZWCore.m"; path = "KZWUtils/Classes/UIView+KZWCore.m"; sourceTree = "<group>"; };
 		A65AF0DDBD5843EF6BE10063EC1DE255 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
 		A90548C89131E070470387160B4FCF29 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC85A24FDBA7F5D2DCE9967761B3B9F7 /* RSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSA.h; path = KZWUtils/Classes/RSA.h; sourceTree = "<group>"; };
+		ABEA380D293E07D4E8C9D199829ECD67 /* UIApplication+KZWFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+KZWFoundation.m"; path = "KZWUtils/Classes/UIApplication+KZWFoundation.m"; sourceTree = "<group>"; };
 		ACA033ABF296C250851844DABA533107 /* Pods-KZWUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZWUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AD80BC1238C1F025946C78EA689F9FD6 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		AE7AE49CD1015709D1A122827AFD2861 /* UITabBar+CustomBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+CustomBadge.h"; path = "KZWUtils/Classes/UITabBar+CustomBadge.h"; sourceTree = "<group>"; };
+		AFD34593175D600B35EAF071AF8052BA /* KZWConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWConstants.m; path = KZWUtils/Classes/KZWConstants.m; sourceTree = "<group>"; };
+		B024C97DCCBC48654274645E8FF02684 /* NSString+KZWData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KZWData.h"; path = "KZWUtils/Classes/NSString+KZWData.h"; sourceTree = "<group>"; };
 		B572762D25AE884A6E6025CD584CA279 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		B611EF9A61A9DFC589F7BCED1C6942D7 /* Pods-KZWUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZWUtils_Example-dummy.m"; sourceTree = "<group>"; };
+		B71C8781CFB7D0AC955ECBC4D2534AB5 /* UINavigationController+KZWBackButtonHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+KZWBackButtonHandler.m"; path = "KZWUtils/Classes/UINavigationController+KZWBackButtonHandler.m"; sourceTree = "<group>"; };
 		B8C978D2BB2D6B76E00F7DFF963157C8 /* Pods-KZWUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZWUtils_Example.modulemap"; sourceTree = "<group>"; };
 		B8FF6C6B3BF23C939CA8D3851A2F46DF /* Pods-KZWUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZWUtils_Example-umbrella.h"; sourceTree = "<group>"; };
-		BA37F4750AFB9CC4D89EA483F4EA333F /* KZWImageCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWImageCacheManager.h; path = KZWUtils/Classes/KZWImageCacheManager.h; sourceTree = "<group>"; };
+		BBFF53AD350C451AB460146DCCBEBF2D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC2D193455C91C04B59D93D2FA1B6C2A /* KZWRSAenscryptString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWRSAenscryptString.m; path = KZWUtils/Classes/KZWRSAenscryptString.m; sourceTree = "<group>"; };
 		BCBFB5C2A3FCF292E4C8F9355FD0F053 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		BDB405E7AEB6E5E793F3111CE17E1EDF /* Pods-KZWUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZWUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BEC7B5ED61139E04DCC6474E7E0F086D /* Pods-KZWUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZWUtils_Tests-resources.sh"; sourceTree = "<group>"; };
-		C1FEC068B595BF345D78ACFE936A0A16 /* UIView+KZWCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KZWCore.h"; path = "KZWUtils/Classes/UIView+KZWCore.h"; sourceTree = "<group>"; };
+		C1C23E1E6318B348FCCC3E275C3A11B2 /* RSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSA.m; path = KZWUtils/Classes/RSA.m; sourceTree = "<group>"; };
+		C260E9C7FD5333400A63208B3FDE5A0A /* NSURL+KZWFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+KZWFoundation.h"; path = "KZWUtils/Classes/NSURL+KZWFoundation.h"; sourceTree = "<group>"; };
 		C462EB7C5A1BFAAAA88A2A69302D6D0D /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
 		C59CA3B35611069886BD9B24209A66D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6C84215E50BB427452C9DDA6CA9D281 /* KZWImageCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWImageCacheManager.m; path = KZWUtils/Classes/KZWImageCacheManager.m; sourceTree = "<group>"; };
 		C9FCFA9C7618D0EF63681404B1649D15 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		CB96F76C371ACFE5C8D1A9F9DC65A685 /* KZWUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KZWUtils-umbrella.h"; sourceTree = "<group>"; };
+		CD0041D253D94351B9EF5386038A019D /* NSString+KZWData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KZWData.m"; path = "KZWUtils/Classes/NSString+KZWData.m"; sourceTree = "<group>"; };
 		CD0799BB500F75019954F20434A4457B /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
 		CD7796E0B84D08F3954CB2285480571B /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		CE122AC8CB809B28B9ECB5366A050C08 /* UIButton+KZWButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KZWButton.m"; path = "KZWUtils/Classes/UIButton+KZWButton.m"; sourceTree = "<group>"; };
+		CF0F85F1A32EC3AB56297051F3BDC0B8 /* RSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSA.h; path = KZWUtils/Classes/RSA.h; sourceTree = "<group>"; };
+		D04209E89878D70E5E6716EAD5E372EB /* KZWRSAenscryptString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWRSAenscryptString.h; path = KZWUtils/Classes/KZWRSAenscryptString.h; sourceTree = "<group>"; };
+		D04A339512A4BF5B20B073796935322F /* UIImageView+KZWCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+KZWCache.h"; path = "KZWUtils/Classes/UIImageView+KZWCache.h"; sourceTree = "<group>"; };
 		D08C87668D5079F8C4B61B3D95436F64 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
 		D156FE66233F9837692DC3CE7C7C5BE2 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		D1B103E0E0EAEAD40FF4B4429E09D70E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		D263A79729870900240111C330E2C66E /* Pods-KZWUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZWUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D340CCFB6C0DA8C80FC8A874ACCAC48A /* KZWUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZWUtils.xcconfig; sourceTree = "<group>"; };
 		D3494A5480373FC3C9BDB523B7E08DB9 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		D3C8BE9F35AA6F50950B44A8B592AB53 /* UITableView+KZWTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+KZWTableView.m"; path = "KZWUtils/Classes/UITableView+KZWTableView.m"; sourceTree = "<group>"; };
+		D43C1BE4580DBB8E4806731C280A3EDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5CCB235447F3E18360C0DAB5E88F117 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
-		D6D61FA993AD00A8A98C28A505C878DC /* NSString+KZWFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KZWFoundation.m"; path = "KZWUtils/Classes/NSString+KZWFoundation.m"; sourceTree = "<group>"; };
-		D7A346BB4507CF74E441D3617735682D /* KZWRSAenscryptString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWRSAenscryptString.m; path = KZWUtils/Classes/KZWRSAenscryptString.m; sourceTree = "<group>"; };
+		D66F3803BC1C1286817EA1312951ADE4 /* UILabel+KZWLineSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+KZWLineSpace.m"; path = "KZWUtils/Classes/UILabel+KZWLineSpace.m"; sourceTree = "<group>"; };
 		D8958DD64D4F8B06313515F077270881 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
 		D9FE37D6C27365FC5DB7076DB6A5080B /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
-		DA0B145BC10CBD127193F50A39FE9996 /* UIScrollView+KZWRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+KZWRefresh.m"; path = "KZWUtils/Classes/UIScrollView+KZWRefresh.m"; sourceTree = "<group>"; };
 		DB33448F78FB572A82C5BAF40CDE333D /* Pods-KZWUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZWUtils_Tests.modulemap"; sourceTree = "<group>"; };
-		DDCD424B72FACF06541C481F4B0945E9 /* UIApplication+KZWFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+KZWFoundation.h"; path = "KZWUtils/Classes/UIApplication+KZWFoundation.h"; sourceTree = "<group>"; };
-		DEC3FE31EA045EE2626E2750911E778B /* UITabBar+CustomBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+CustomBadge.m"; path = "KZWUtils/Classes/UITabBar+CustomBadge.m"; sourceTree = "<group>"; };
+		E0600D7CB311EF8606FA1330D76F4E80 /* NSString+KZWFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KZWFoundation.m"; path = "KZWUtils/Classes/NSString+KZWFoundation.m"; sourceTree = "<group>"; };
+		E12C430C516EAB8F89E8EE25C01DD294 /* NSObject+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Dictionary.m"; path = "KZWUtils/Classes/NSObject+Dictionary.m"; sourceTree = "<group>"; };
+		E3F8C4DA7596F1E51924DB8889D7ECC8 /* KZWImageCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZWImageCacheManager.m; path = KZWUtils/Classes/KZWImageCacheManager.m; sourceTree = "<group>"; };
 		E6152B094EC2308994892CDDA977AECA /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
 		E6643DEB2913C3EFD0B2310908C6B17D /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
 		E6CF8606D9A40248E37C5698C21DC6E8 /* Pods-KZWUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZWUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EA68B7A1DFD113F9B3227E4036D94030 /* UINavigationController+KZWBackButtonHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+KZWBackButtonHandler.h"; path = "KZWUtils/Classes/UINavigationController+KZWBackButtonHandler.h"; sourceTree = "<group>"; };
 		EB918D990D25121F5BEC820092DAF410 /* KZWUI.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KZWUI.bundle; path = "KZWUtils-KZWUI.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD9FF5604BCD1D3758AF63D6FA6E884 /* UILabel+KZWLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+KZWLabel.m"; path = "KZWUtils/Classes/UILabel+KZWLabel.m"; sourceTree = "<group>"; };
-		EE317BE79EB9564158A38602B0019EDC /* KZWUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KZWUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F041A1B8A94123188F442D601DB7F5D8 /* UIApplication+KZWFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+KZWFoundation.h"; path = "KZWUtils/Classes/UIApplication+KZWFoundation.h"; sourceTree = "<group>"; };
 		F1604E7B9DB88EF0843279A3CF2928F5 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
 		F17968D06714510D797A41A4AA87E6D0 /* Pods-KZWUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZWUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1A111851B3054FEDC84D1FF7557D15A /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
-		F24C2EFDEEFE965F9132F36393279DF8 /* KZWUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KZWUtils-prefix.pch"; sourceTree = "<group>"; };
-		F7F44560AE6C51466D0E6541F0F4FFDE /* NSError+KZWErrorMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+KZWErrorMessage.h"; path = "KZWUtils/Classes/NSError+KZWErrorMessage.h"; sourceTree = "<group>"; };
+		F42AB3C40D4096653F69E290E00E43DC /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KZWUtils/Assets/Images.xcassets; sourceTree = "<group>"; };
+		F73A0F08845C1C4235B1060A8182ACCE /* UILabel+KZWLineSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+KZWLineSpace.h"; path = "KZWUtils/Classes/UILabel+KZWLineSpace.h"; sourceTree = "<group>"; };
+		F81C59E8B53E2D7A3B5A11872BC30588 /* KZWUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZWUtils.h; path = KZWUtils/Classes/KZWUtils.h; sourceTree = "<group>"; };
 		F955E6BABF7388C78844382C720BD452 /* Pods_KZWUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZWUtils_Tests.framework; path = "Pods-KZWUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9A68B27AEB72604A49E8A74D8FFC8F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FBB234DB212E46C201CD9108FB8765A9 /* Pods-KZWUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZWUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FBF3CF420483EE48469540668BE2E72E /* NSError+KZWErrorMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+KZWErrorMessage.m"; path = "KZWUtils/Classes/NSError+KZWErrorMessage.m"; sourceTree = "<group>"; };
 		FCB894B857E06B328E179EDD1F51EA8C /* Pods_KZWUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZWUtils_Example.framework; path = "Pods-KZWUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF010D84D691F29152E3080234632581 /* KZWUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KZWUtils-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4489058765041175337BBC75467CAE15 /* Frameworks */ = {
+		22079A7EED391773869542E7F30AC922 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F99AA816216923357B9E07A06ED8B67 /* Frameworks */ = {
+		35B5356E32FDF2E1CF0FF4DE37279E3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485A015D6AB4050A69DF187CEDE539F7 /* Foundation.framework in Frameworks */,
-				D5B9B0876E1825F1764F9100F9F827BE /* MJRefresh.framework in Frameworks */,
-				2EA242ED7E627AF9ED4E5492DD0CC3BB /* UIKit.framework in Frameworks */,
+				91576EB1E843811BC53543BA5AC38F6C /* AudioToolbox.framework in Frameworks */,
+				77994F784D1657C4958726FCF6DCA721 /* Foundation.framework in Frameworks */,
+				4254776764F0AD8053F7FC171DA1B765 /* MapKit.framework in Frameworks */,
+				BC8224B83641B73FE5D798828F3C34D4 /* MJRefresh.framework in Frameworks */,
+				D0F9EB69BF67E86B14C97B878635C3DE /* Security.framework in Frameworks */,
+				559FAD88E15FF9EA010F1E165B5EBD5E /* UIKit.framework in Frameworks */,
+				29B48FDE863E871C3DC59140A322D08D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B384C13BF88CD7829E0C36B4CC4347 /* Frameworks */ = {
+		8512FB69CDB35A2A0B545876CCA60C00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1777FA666FE774A52DEF717121C606E /* Foundation.framework in Frameworks */,
+				607BF4862F6E3960C22965BE05A01846 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +400,27 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
+		1E647F58582C19A2A369BBC490D956F6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				58052FBACF846588411E6C8D178C0A6B /* AudioToolbox.framework */,
+				A24091C087972B6DE58297C8A5C3C0F5 /* Foundation.framework */,
+				BBFF53AD350C451AB460146DCCBEBF2D /* MapKit.framework */,
+				621EB4FDE437091F17056DF3FA738DE3 /* Security.framework */,
+				4DC76B554876C1EE41E58A9FCF245D86 /* UIKit.framework */,
+				D1B103E0E0EAEAD40FF4B4429E09D70E /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2B1C1132EC82D3B50A191D13A49D6917 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F42AB3C40D4096653F69E290E00E43DC /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2F7A31F2CC7696BDCA31131421062736 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,6 +435,18 @@
 			path = "../Target Support Files/MJRefresh";
 			sourceTree = "<group>";
 		};
+		4DFF3521040555CEB5AB7B51EFF4F285 /* KZWUtils */ = {
+			isa = PBXGroup;
+			children = (
+				F81C59E8B53E2D7A3B5A11872BC30588 /* KZWUtils.h */,
+				D0BBDBA0E2C5D567D8B7F20A13F421A7 /* Content */,
+				DD8FAF4C58F9C205649497C1834B382C /* Pod */,
+				95097E61BC530512727EB37F20C5D66F /* Support Files */,
+			);
+			name = KZWUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		4F0DB73DDC7F47795D16B18DFADF6897 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -415,19 +456,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		541751F018BEC14BD2D5BC4983FC2648 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6F81D6769D6F52947E9765CCB3DD0657 /* Foundation.framework */,
-				3EF00A0D63E8ACFFCAAD0751CF286027 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		5D8D3300D216218EBE7C836CC57F7FD9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F840312C1895CF0F007755F7B972FF1B /* KZWUtils */,
+				4DFF3521040555CEB5AB7B51EFF4F285 /* KZWUtils */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -440,64 +472,13 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		75D4BACD1C843B0010355635CC21BFE4 /* Content */ = {
+		74B8211791EE1FA3254CC9918AEB3F4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				889E463855BD02619644BAF217AD99CF /* KZWConstants.h */,
-				509C15D269AC54F3896B58006C08F433 /* KZWConstants.m */,
-				06CD47EDDD28ED3DD67B35F1BA73A321 /* KZWCorrectLocation.h */,
-				8C2DD8C43B65443A205AE853444D7358 /* KZWCorrectLocation.m */,
-				711A602D1909368502735F3EE840451C /* KZWDebugService.h */,
-				4806C784DE655ADFF4C564B69CFAE8E7 /* KZWDebugService.m */,
-				47C1887C0EEEE809F722C1ECB98067B2 /* KZWEnvironmentManager.h */,
-				1D7BD5C75922AACCE9D322F2C7866C14 /* KZWEnvironmentManager.m */,
-				BA37F4750AFB9CC4D89EA483F4EA333F /* KZWImageCacheManager.h */,
-				C6C84215E50BB427452C9DDA6CA9D281 /* KZWImageCacheManager.m */,
-				4D5D87A399951FBD5D8E697804284348 /* KZWRSAenscryptString.h */,
-				D7A346BB4507CF74E441D3617735682D /* KZWRSAenscryptString.m */,
-				F7F44560AE6C51466D0E6541F0F4FFDE /* NSError+KZWErrorMessage.h */,
-				FBF3CF420483EE48469540668BE2E72E /* NSError+KZWErrorMessage.m */,
-				980D02C8B3981AE7BC76DBD06E652EF2 /* NSObject+Dictionary.h */,
-				90D41D1554C3DE17E345812F29D04C04 /* NSObject+Dictionary.m */,
-				8E0E908276C3B02D415E3AB15F84DBF3 /* NSObject+KZWAssociatedObject.h */,
-				32CF0C609501F0768A8870C2437B251E /* NSObject+KZWAssociatedObject.m */,
-				72BDB2DCF1A03224BFF33A0700C133F9 /* NSString+KZWData.h */,
-				0B1D8BC109559ED33F27A43B72075E8A /* NSString+KZWData.m */,
-				4AD0B68EA91158876AA6B62439FD2B44 /* NSString+KZWFoundation.h */,
-				D6D61FA993AD00A8A98C28A505C878DC /* NSString+KZWFoundation.m */,
-				0247B008F1E8E88E733E71A2BD122C6B /* NSURL+KZWFoundation.h */,
-				8BD732E9C1FB60FB3913FF0CCECDB8C9 /* NSURL+KZWFoundation.m */,
-				AC85A24FDBA7F5D2DCE9967761B3B9F7 /* RSA.h */,
-				5AB85872E4A6D77EF34A4406333D059E /* RSA.m */,
-				DDCD424B72FACF06541C481F4B0945E9 /* UIApplication+KZWFoundation.h */,
-				20DFEE8CE1AFB594829B115384356632 /* UIApplication+KZWFoundation.m */,
-				335A9F33F16399713E214888952C7F92 /* UIButton+KZWButton.h */,
-				A1519BEC9CA6D1494AD8123900D3A5C7 /* UIButton+KZWButton.m */,
-				26689F96FDBCBA9E9E5049E7F323B294 /* UIColor+KZWColor.h */,
-				8E19AE62BCD9582E9F21325D62C05AA9 /* UIColor+KZWColor.m */,
-				79F64FCDD8891911B11C786D9B1B05F4 /* UIControl+Block.h */,
-				035904037A274D84D912BBD6FC3E8EDC /* UIControl+Block.m */,
-				76FC52C8EF8802F7F2CDAD7006C1B1E8 /* UIImageView+KZWCache.h */,
-				41C1C7157C7562324F7B447A22F9A668 /* UIImageView+KZWCache.m */,
-				0BA732413BC1A85E2720E392A28BE3AF /* UILabel+KZWLabel.h */,
-				ECD9FF5604BCD1D3758AF63D6FA6E884 /* UILabel+KZWLabel.m */,
-				7044CCE575B40C1638CECAAE5ECC64ED /* UILabel+KZWLineSpace.h */,
-				41E3A3F7156B103E06D623418C78CA77 /* UILabel+KZWLineSpace.m */,
-				EA68B7A1DFD113F9B3227E4036D94030 /* UINavigationController+KZWBackButtonHandler.h */,
-				7AB6A23A18781FE155264CBA2B421062 /* UINavigationController+KZWBackButtonHandler.m */,
-				253F07D9AAA975DD50D7AA3065516556 /* UIScrollView+KZWRefresh.h */,
-				DA0B145BC10CBD127193F50A39FE9996 /* UIScrollView+KZWRefresh.m */,
-				9C52C0C48EA1FBD412FA72C7AB73A868 /* UITabBar+CustomBadge.h */,
-				DEC3FE31EA045EE2626E2750911E778B /* UITabBar+CustomBadge.m */,
-				490CA6CF4709FEDC78D207F7177AE128 /* UITabBarItem+WebCache.h */,
-				2C20EB935D942B3F5E81B0F8F08CC932 /* UITabBarItem+WebCache.m */,
-				8E4E06143A0510DE0D2D9B4655E739EE /* UITableView+KZWTableView.h */,
-				02AD9CFC62903EED71B51E2834852EA3 /* UITableView+KZWTableView.m */,
-				C1FEC068B595BF345D78ACFE936A0A16 /* UIView+KZWCore.h */,
-				8FBB046FBC79E9A8E409F3607E0D21FA /* UIView+KZWCore.m */,
-				C8BE1F4D71C288D61874EF2F80C4829E /* Resources */,
+				7E8186D91B544C5545B436752F384036 /* MJRefresh.framework */,
+				1E647F58582C19A2A369BBC490D956F6 /* iOS */,
 			);
-			name = Content;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -505,11 +486,26 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				5D8D3300D216218EBE7C836CC57F7FD9 /* Development Pods */,
-				F63DF0D4E566BB69A93A3FC7DC0AAD1D /* Frameworks */,
+				74B8211791EE1FA3254CC9918AEB3F4C /* Frameworks */,
 				DD0132D41CBFCB2611DA7EABABDA47E4 /* Pods */,
 				F139968799D44C63A161ADC1C4150A19 /* Products */,
 				4F0DB73DDC7F47795D16B18DFADF6897 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		95097E61BC530512727EB37F20C5D66F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43C1BE4580DBB8E4806731C280A3EDC /* Info.plist */,
+				4C4586CB1DC29E0F7314D7577278BE53 /* KZWUtils.modulemap */,
+				960BD7EC04095F1D8802E5F0F272EB12 /* KZWUtils.xcconfig */,
+				3A6E490875791807512DF33EBE6944C8 /* KZWUtils-dummy.m */,
+				58FD78A7598D0046E192D1A64EBA8AEB /* KZWUtils-prefix.pch */,
+				CB96F76C371ACFE5C8D1A9F9DC65A685 /* KZWUtils-umbrella.h */,
+				7A049CD6BAECB6C01B46DE073C92F428 /* ResourceBundle-KZWUI-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KZWUtils";
 			sourceTree = "<group>";
 		};
 		B945274D239C16B4B48D2E199596D081 /* Pods-KZWUtils_Tests */ = {
@@ -530,27 +526,62 @@
 			path = "Target Support Files/Pods-KZWUtils_Tests";
 			sourceTree = "<group>";
 		};
-		BB56773AD6CF32125E76B031E9D2DE44 /* Support Files */ = {
+		D0BBDBA0E2C5D567D8B7F20A13F421A7 /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				5DA37BC20AA2DB784E1673E493FBAE78 /* Info.plist */,
-				274E23C3615C3EEF481FD7F1D07A5D58 /* KZWUtils.modulemap */,
-				D340CCFB6C0DA8C80FC8A874ACCAC48A /* KZWUtils.xcconfig */,
-				FF010D84D691F29152E3080234632581 /* KZWUtils-dummy.m */,
-				F24C2EFDEEFE965F9132F36393279DF8 /* KZWUtils-prefix.pch */,
-				042E8709671B2B382E88E4E2182D8190 /* KZWUtils-umbrella.h */,
-				94E32C8BE8D49840226F5A55F23D9D23 /* ResourceBundle-KZWUI-Info.plist */,
+				3CE05A53AD928C80EC628BFA7D29F1AA /* KZWConstants.h */,
+				AFD34593175D600B35EAF071AF8052BA /* KZWConstants.m */,
+				68C52EF7D498664F1AFEC64B70DD737A /* KZWCorrectLocation.h */,
+				649D8B12253EB469C276161F2BB4DC76 /* KZWCorrectLocation.m */,
+				57815B95A940D764C0B1F723B0E3DFDA /* KZWDebugService.h */,
+				965D43ADBBC3B965DC256076A327CE7A /* KZWDebugService.m */,
+				267F315EDA265EC5EC8A65C7103E10EE /* KZWEnvironmentManager.h */,
+				839728E9289FCCA0CC5D158E183EE8B5 /* KZWEnvironmentManager.m */,
+				9FB5F8A0F03DB75D2FD9B7D90A629256 /* KZWImageCacheManager.h */,
+				E3F8C4DA7596F1E51924DB8889D7ECC8 /* KZWImageCacheManager.m */,
+				D04209E89878D70E5E6716EAD5E372EB /* KZWRSAenscryptString.h */,
+				BC2D193455C91C04B59D93D2FA1B6C2A /* KZWRSAenscryptString.m */,
+				61D3D4766C5922ED773235CBDD399A44 /* NSObject+Dictionary.h */,
+				E12C430C516EAB8F89E8EE25C01DD294 /* NSObject+Dictionary.m */,
+				36BFAF62768FB605F1577C4ADA0B28D6 /* NSObject+KZWAssociatedObject.h */,
+				3A27FAF94227BFB12E74140FD10180B9 /* NSObject+KZWAssociatedObject.m */,
+				B024C97DCCBC48654274645E8FF02684 /* NSString+KZWData.h */,
+				CD0041D253D94351B9EF5386038A019D /* NSString+KZWData.m */,
+				6D2E92340A0CF0A3F11E74EA105CCE84 /* NSString+KZWFoundation.h */,
+				E0600D7CB311EF8606FA1330D76F4E80 /* NSString+KZWFoundation.m */,
+				C260E9C7FD5333400A63208B3FDE5A0A /* NSURL+KZWFoundation.h */,
+				7377B49069076433FB6BF2B4D53498BA /* NSURL+KZWFoundation.m */,
+				CF0F85F1A32EC3AB56297051F3BDC0B8 /* RSA.h */,
+				C1C23E1E6318B348FCCC3E275C3A11B2 /* RSA.m */,
+				F041A1B8A94123188F442D601DB7F5D8 /* UIApplication+KZWFoundation.h */,
+				ABEA380D293E07D4E8C9D199829ECD67 /* UIApplication+KZWFoundation.m */,
+				6A4C4EFA3606C005A118D19D7602AAC4 /* UIButton+KZWButton.h */,
+				CE122AC8CB809B28B9ECB5366A050C08 /* UIButton+KZWButton.m */,
+				34C0485AB383025F8D9A53087E9FBFD2 /* UIColor+KZWColor.h */,
+				5E2C267146643D55BBC22F4BD839DFF8 /* UIColor+KZWColor.m */,
+				3E71196EFBB78229B77F13B3806D4518 /* UIControl+Block.h */,
+				2CF31952844D8C74D20D1C5D1A1ADF44 /* UIControl+Block.m */,
+				D04A339512A4BF5B20B073796935322F /* UIImageView+KZWCache.h */,
+				1626AD59CC1C187651FB6B9347680DA1 /* UIImageView+KZWCache.m */,
+				3870BD5BCE24B8098A2FDEBF3659DE02 /* UILabel+KZWLabel.h */,
+				208AD884ADC21F1AFF9450DEF984102D /* UILabel+KZWLabel.m */,
+				F73A0F08845C1C4235B1060A8182ACCE /* UILabel+KZWLineSpace.h */,
+				D66F3803BC1C1286817EA1312951ADE4 /* UILabel+KZWLineSpace.m */,
+				24035C06A110C184364CD993DA695712 /* UINavigationController+KZWBackButtonHandler.h */,
+				B71C8781CFB7D0AC955ECBC4D2534AB5 /* UINavigationController+KZWBackButtonHandler.m */,
+				28EC3DD35C8657A6E8869E96F78F8B45 /* UIScrollView+KZWRefresh.h */,
+				2C6FD3356C6C509117DAFDFE65B97DEE /* UIScrollView+KZWRefresh.m */,
+				AE7AE49CD1015709D1A122827AFD2861 /* UITabBar+CustomBadge.h */,
+				7138E83C97F3EC563EB9978E38F353A7 /* UITabBar+CustomBadge.m */,
+				99629DBB408145E053B6640C070E3362 /* UITabBarItem+WebCache.h */,
+				48B34332A76F2B8B648770866D0B3984 /* UITabBarItem+WebCache.m */,
+				2EA3F8936A124A76D13BFFB4BA61D09D /* UITableView+KZWTableView.h */,
+				D3C8BE9F35AA6F50950B44A8B592AB53 /* UITableView+KZWTableView.m */,
+				7813C6D2743B3A2C1E56997FE0291606 /* UIView+KZWCore.h */,
+				A3E06D0246E79B6ECD49A7372C4FCAF1 /* UIView+KZWCore.m */,
+				2B1C1132EC82D3B50A191D13A49D6917 /* Resources */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KZWUtils";
-			sourceTree = "<group>";
-		};
-		C8BE1F4D71C288D61874EF2F80C4829E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3BAEEE9EA8C877129162DF415EC42702 /* Images.xcassets */,
-			);
-			name = Resources;
+			name = Content;
 			sourceTree = "<group>";
 		};
 		DD0132D41CBFCB2611DA7EABABDA47E4 /* Pods */ = {
@@ -559,6 +590,16 @@
 				0CD1F1B3DBB711F2545AF5DF3CD992F1 /* MJRefresh */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD8FAF4C58F9C205649497C1834B382C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				623ADB0F84311131A0E44EC5B5A3869F /* KZWUtils.podspec */,
+				6BB07235D760CC971030C7FA3DD71868 /* LICENSE */,
+				360ECE8B82BB960E8EB55FA2C0284670 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E6A4B4AE39D5A00E76FE82B6B7ADDD93 /* Pods-KZWUtils_Example */ = {
@@ -579,16 +620,6 @@
 			path = "Target Support Files/Pods-KZWUtils_Example";
 			sourceTree = "<group>";
 		};
-		EBA0E8580BC1B7E79C0C3F6F63DE5B0F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EE317BE79EB9564158A38602B0019EDC /* KZWUtils.podspec */,
-				F9A68B27AEB72604A49E8A74D8FFC8F1 /* LICENSE */,
-				159826A9F6DD3151615912B71BFD5EF7 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F139968799D44C63A161ADC1C4150A19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -601,90 +632,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F63DF0D4E566BB69A93A3FC7DC0AAD1D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				17CCA8DD82EF1C1B58D82DE0271EB93F /* MJRefresh.framework */,
-				541751F018BEC14BD2D5BC4983FC2648 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F840312C1895CF0F007755F7B972FF1B /* KZWUtils */ = {
-			isa = PBXGroup;
-			children = (
-				4CC771CFBA6FC717C0826C9A0161D753 /* KZWUtils.h */,
-				75D4BACD1C843B0010355635CC21BFE4 /* Content */,
-				EBA0E8580BC1B7E79C0C3F6F63DE5B0F /* Pod */,
-				BB56773AD6CF32125E76B031E9D2DE44 /* Support Files */,
-			);
-			name = KZWUtils;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2223EEC55CA04E73C6095661F705F9A0 /* Headers */ = {
+		5BFB202F33E3B55986258DDA02DECC8B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBEBF439ED48D430F316CBBD4C4042F /* MJRefresh-umbrella.h in Headers */,
-				CC97D91269B17FCFF20593AC9974B9F8 /* MJRefresh.h in Headers */,
-				2629A3D4F2FD72BB8A3684A8228DCBC4 /* MJRefreshAutoFooter.h in Headers */,
-				7109447A8B31B5C0979B0BE57D983788 /* MJRefreshAutoGifFooter.h in Headers */,
-				585B4643AA21BEEF8EFCAEE754AA4030 /* MJRefreshAutoNormalFooter.h in Headers */,
-				326F934AF5D58A49143E3F4E43AC1B84 /* MJRefreshAutoStateFooter.h in Headers */,
-				8AB0FFEC9999E48B08B393370ACA3DE4 /* MJRefreshBackFooter.h in Headers */,
-				E54380A7C1855C10FA1F5A80DFB469FD /* MJRefreshBackGifFooter.h in Headers */,
-				A027AB9EC27311409DBD40DC3B301355 /* MJRefreshBackNormalFooter.h in Headers */,
-				C4E257B5178554C1B8DE1D98C33F13C0 /* MJRefreshBackStateFooter.h in Headers */,
-				F65D1C188D715F5AFF59189D76F8FA03 /* MJRefreshComponent.h in Headers */,
-				D0AD2D2A57A4A7EEF5B1C66E150A6E76 /* MJRefreshConst.h in Headers */,
-				FD658B0C9183CE1B3919FA8E6190E0EC /* MJRefreshFooter.h in Headers */,
-				0AB66424EF61EBBA3E22EE3F3F78B3BE /* MJRefreshGifHeader.h in Headers */,
-				D993C6A5192C8006783F30C41863C0DD /* MJRefreshHeader.h in Headers */,
-				337F94AAB2E3FA71E471039E99FB95B0 /* MJRefreshNormalHeader.h in Headers */,
-				4B3324A5D5231E398DBB6A7A6EE92F1A /* MJRefreshStateHeader.h in Headers */,
-				BE762716A5EBCA9EEE934AB13873367F /* NSBundle+MJRefresh.h in Headers */,
-				6AA6F6C0C60267B040383FCBEA4705A8 /* UIScrollView+MJExtension.h in Headers */,
-				552DF2175BE05ECEC3CA40AAA78201CA /* UIScrollView+MJRefresh.h in Headers */,
-				F4008583B31A89791AC26EE3E0010FA0 /* UIView+MJExtension.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		77110DCC373AD7D2C089313532C97D1B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				384BDDEDB29F8340734D674605A3DA5F /* KZWConstants.h in Headers */,
-				23536B7EE12D91D6008AE20359737527 /* KZWCorrectLocation.h in Headers */,
-				814AF47E5614F1F9FC6ADE2BE2D94488 /* KZWDebugService.h in Headers */,
-				9C26FF4229CABD6A4E133EA7F8727770 /* KZWEnvironmentManager.h in Headers */,
-				F867C9EF46879A9B8DE1641076E416D0 /* KZWImageCacheManager.h in Headers */,
-				44D5AC636DDF07E061353122757EBB9F /* KZWRSAenscryptString.h in Headers */,
-				B1B0F1E8BDAF1F0E773D390F69A0FB3E /* KZWUtils-umbrella.h in Headers */,
-				914D07DDABB5763B6B574CCD746761D1 /* KZWUtils.h in Headers */,
-				40A2EC0A541BC3312B0703F67D49DEE1 /* NSError+KZWErrorMessage.h in Headers */,
-				D5DDFDB4044BF2E5F9EAD7698679DA42 /* NSObject+Dictionary.h in Headers */,
-				7DE0B06531CA8865FEAAFC0E15AE5854 /* NSObject+KZWAssociatedObject.h in Headers */,
-				A4A9D998492820D3284FCA1324D59784 /* NSString+KZWData.h in Headers */,
-				F9780DDEC7BF664CF94B96A81C249BCB /* NSString+KZWFoundation.h in Headers */,
-				BBF9ECB5C3D6ADC9734BDC22F10B0684 /* NSURL+KZWFoundation.h in Headers */,
-				FC899F33E2CF7FBAC57F7D46D0BD31BF /* RSA.h in Headers */,
-				8D28A3BA5BEA63831FECBEF8DE4003D0 /* UIApplication+KZWFoundation.h in Headers */,
-				31493EA820C0511F16914FC69349CABB /* UIButton+KZWButton.h in Headers */,
-				B4D6B08EEFDA859BE4E21463BB699669 /* UIColor+KZWColor.h in Headers */,
-				0A2E15DA01F22B7ADBC9B420A5057391 /* UIControl+Block.h in Headers */,
-				66BF690CD739B2C575EDD70039ED3338 /* UIImageView+KZWCache.h in Headers */,
-				37C597A8BEA0AAE1FAC977DCDC2319D4 /* UILabel+KZWLabel.h in Headers */,
-				C46959A4E8EA18F44D12E3873266572A /* UILabel+KZWLineSpace.h in Headers */,
-				FFC3D505C0048DEBFCD817A8890AD368 /* UINavigationController+KZWBackButtonHandler.h in Headers */,
-				6782B70EFF1518979A470D8BF700DD6D /* UIScrollView+KZWRefresh.h in Headers */,
-				4C4FE6EC44049C238B7757350143A4B2 /* UITabBar+CustomBadge.h in Headers */,
-				24CBC147A96BED97C8CAC94A4235ED43 /* UITabBarItem+WebCache.h in Headers */,
-				3F91C45C60CE20AC5953A1131A7DBD39 /* UITableView+KZWTableView.h in Headers */,
-				36DC63D4643366764B8DCBD3877CDC11 /* UIView+KZWCore.h in Headers */,
+				46D3E855CD27EC17C79942572C962B59 /* MJRefresh-umbrella.h in Headers */,
+				9A899843916413B692DABACC9B365391 /* MJRefresh.h in Headers */,
+				86C0C53E6EC1F0BF5F856830F48E646D /* MJRefreshAutoFooter.h in Headers */,
+				A72670AC70DB479E3CF7553A0C6697DD /* MJRefreshAutoGifFooter.h in Headers */,
+				5980A5E4F43A4BC726D4862B66F98EA3 /* MJRefreshAutoNormalFooter.h in Headers */,
+				A230CA6D09B26AB565DD8B4C0815BEAB /* MJRefreshAutoStateFooter.h in Headers */,
+				B3FB137964D8BFF135F5807C493A76AB /* MJRefreshBackFooter.h in Headers */,
+				2470AEA6E332AB6B9CAC189759161A36 /* MJRefreshBackGifFooter.h in Headers */,
+				33A10B298A78BE9DE6E023402DBB0562 /* MJRefreshBackNormalFooter.h in Headers */,
+				86139A7674AF4A9459FDF3DB0DF3AF4D /* MJRefreshBackStateFooter.h in Headers */,
+				48844BD2EE8E6EB0CCA7D0018D45CB48 /* MJRefreshComponent.h in Headers */,
+				D733EBBD06C60DF593D62D6B4C0DD8F3 /* MJRefreshConst.h in Headers */,
+				934EC567941798A6CBE377C5C6B50D0C /* MJRefreshFooter.h in Headers */,
+				E8E8D08994CC85ECCF6CC610301810F3 /* MJRefreshGifHeader.h in Headers */,
+				241446977DD8A32874D0320CDB858461 /* MJRefreshHeader.h in Headers */,
+				842FF8BC51325D1075BE014289B48748 /* MJRefreshNormalHeader.h in Headers */,
+				F6C77EF19CFFB40486DB5E9562286B45 /* MJRefreshStateHeader.h in Headers */,
+				A8971C56AF3BBB8E5DB85D8A8CD3AF16 /* NSBundle+MJRefresh.h in Headers */,
+				F541E9D35F35008721A69374F3D19833 /* UIScrollView+MJExtension.h in Headers */,
+				762696B09BDBFD068E37C264EBFA212B /* UIScrollView+MJRefresh.h in Headers */,
+				27EEC65C7E7B4517E1903EA1299CAAA0 /* UIView+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,6 +668,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF2E8C8BEB3B8B9EB8C3BEA7491F7D48 /* Pods-KZWUtils_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81E1C4D37DDD50F50148BA7C27794BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150EF92510F2F86A7DBCDD4CABB2BF6 /* KZWConstants.h in Headers */,
+				79A9029AC628017D13D797BC7CFBB7F8 /* KZWCorrectLocation.h in Headers */,
+				1A2CAB9DD6DE29148AAA7507FFE0AD70 /* KZWDebugService.h in Headers */,
+				44C62D133B1F50782FB7672038F897B4 /* KZWEnvironmentManager.h in Headers */,
+				CF669E8F2736C36DAE8946EF3FEACBC0 /* KZWImageCacheManager.h in Headers */,
+				85C1A7A9E12D94D2D93882A428926A89 /* KZWRSAenscryptString.h in Headers */,
+				1C82D0092335B24CBBDB73F42252DC94 /* KZWUtils-umbrella.h in Headers */,
+				393A4D6EC78936A21EFEB73D947F3314 /* KZWUtils.h in Headers */,
+				F5A69ECBE181C7FD0A6CB33BD84CA5B7 /* NSObject+Dictionary.h in Headers */,
+				DB914D9520B2E830847FCB328B92865A /* NSObject+KZWAssociatedObject.h in Headers */,
+				7CE91959E6887E1E531E40F9EB1B7951 /* NSString+KZWData.h in Headers */,
+				3057FEB2E6B519CA788E3F01341601C3 /* NSString+KZWFoundation.h in Headers */,
+				8D825F94817DC276B1CD59F4CEA86CE5 /* NSURL+KZWFoundation.h in Headers */,
+				873BE5602CC2A7EA299333D64CDE6382 /* RSA.h in Headers */,
+				85F27DA793E386AACEECC13319C9FD84 /* UIApplication+KZWFoundation.h in Headers */,
+				BBDA549DBB2A3BE33D0C74665767CDA6 /* UIButton+KZWButton.h in Headers */,
+				E9AF0AF8DA26EFD9331C29DA3E46C3E0 /* UIColor+KZWColor.h in Headers */,
+				24524CC972FD09A61CF0F21790FAC787 /* UIControl+Block.h in Headers */,
+				8DFA50B0C517E15EC31532677D5E4263 /* UIImageView+KZWCache.h in Headers */,
+				794AF32115BC957B843806D0EE06E4DC /* UILabel+KZWLabel.h in Headers */,
+				F06A20C39488059FEB72F6870F7BEF6F /* UILabel+KZWLineSpace.h in Headers */,
+				899B47C4CACBEC533B45DCC0E0576BAC /* UINavigationController+KZWBackButtonHandler.h in Headers */,
+				9FAEB45792649F1B9AB4EDF6793BE9A6 /* UIScrollView+KZWRefresh.h in Headers */,
+				ABDE9EB226B0132C4B21671D2D618F9B /* UITabBar+CustomBadge.h in Headers */,
+				56F40D37FD94A59D81E4E3C8BDC00115 /* UITabBarItem+WebCache.h in Headers */,
+				8D2E8B0BE3DAD38C48873C08B68E5D3F /* UITableView+KZWTableView.h in Headers */,
+				3AC3702770EB80E862AC4CD48536041B /* UIView+KZWCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,13 +755,13 @@
 			productReference = FCB894B857E06B328E179EDD1F51EA8C /* Pods_KZWUtils_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7BA938BD822FCDDEE48EE1F3BCD68ADD /* KZWUtils-KZWUI */ = {
+		64B0837DDED2C9FABC09203DD825CF7D /* KZWUtils-KZWUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68D9EBA883B295C7374D263B2279A2C6 /* Build configuration list for PBXNativeTarget "KZWUtils-KZWUI" */;
+			buildConfigurationList = 119CA0466C80614D1EF80A6621B09C73 /* Build configuration list for PBXNativeTarget "KZWUtils-KZWUI" */;
 			buildPhases = (
-				86550D16D15B793A0CEC6378CCBD1F53 /* Sources */,
-				4489058765041175337BBC75467CAE15 /* Frameworks */,
-				8EA928FD9D511F9E018CE813EF12EF8D /* Resources */,
+				C594DEDCCADC49A723813265F9CF1143 /* Sources */,
+				22079A7EED391773869542E7F30AC922 /* Frameworks */,
+				07AA5BBF3C85B9F41D9712C3C841BB0E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -763,14 +772,14 @@
 			productReference = EB918D990D25121F5BEC820092DAF410 /* KZWUI.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		999B26E42C965B17B6215A56978F403E /* MJRefresh */ = {
+		65DB8FBF860557721D142D027DC4CAA8 /* MJRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF4E573404BF8214A37874BCE005161 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildConfigurationList = 6A963FC61839DCCDADD26FFE8D8EA06A /* Build configuration list for PBXNativeTarget "MJRefresh" */;
 			buildPhases = (
-				2223EEC55CA04E73C6095661F705F9A0 /* Headers */,
-				64D96E8ACF5A4AAE6A5133F6E4CACDAC /* Sources */,
-				F0B384C13BF88CD7829E0C36B4CC4347 /* Frameworks */,
-				B4FE23657B019FC77BC4E4D4B83A8269 /* Resources */,
+				5BFB202F33E3B55986258DDA02DECC8B /* Headers */,
+				507A965FB86D9420953E6519892E3692 /* Sources */,
+				8512FB69CDB35A2A0B545876CCA60C00 /* Frameworks */,
+				CBE28175B7F1571F0BD7FE83412EA06D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -781,20 +790,20 @@
 			productReference = A90548C89131E070470387160B4FCF29 /* MJRefresh.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9DDCAB0642D3E055443E4318D744DF21 /* KZWUtils */ = {
+		D0A6598F278399E2D3CC51E1FD078917 /* KZWUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 349A42157F19F1807B0484D7EE54AAF5 /* Build configuration list for PBXNativeTarget "KZWUtils" */;
+			buildConfigurationList = 5150EBF2B136685A05C5FAABE854961A /* Build configuration list for PBXNativeTarget "KZWUtils" */;
 			buildPhases = (
-				77110DCC373AD7D2C089313532C97D1B /* Headers */,
-				65C0AA9A6D2258114DE2839A688088B6 /* Sources */,
-				5F99AA816216923357B9E07A06ED8B67 /* Frameworks */,
-				7F8E25A9D5EF30795F9A2079050A998B /* Resources */,
+				D81E1C4D37DDD50F50148BA7C27794BA /* Headers */,
+				B58B27AD302961BFC4AC878EE3D707A2 /* Sources */,
+				35B5356E32FDF2E1CF0FF4DE37279E3E /* Frameworks */,
+				C8D04ECC98EDCEBEF02C908906A8E026 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0F35470EC3827E786B363CC4A9C7062F /* PBXTargetDependency */,
-				41C3CA5285ECD203D6F58C3017F56BA5 /* PBXTargetDependency */,
+				08F78CB2004868E56D9F10E31BEC95EF /* PBXTargetDependency */,
+				EC74A4D921A86E4E5CD3DF899D66FA54 /* PBXTargetDependency */,
 			);
 			name = KZWUtils;
 			productName = KZWUtils;
@@ -822,9 +831,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DDCAB0642D3E055443E4318D744DF21 /* KZWUtils */,
-				7BA938BD822FCDDEE48EE1F3BCD68ADD /* KZWUtils-KZWUI */,
-				999B26E42C965B17B6215A56978F403E /* MJRefresh */,
+				D0A6598F278399E2D3CC51E1FD078917 /* KZWUtils */,
+				64B0837DDED2C9FABC09203DD825CF7D /* KZWUtils-KZWUI */,
+				65DB8FBF860557721D142D027DC4CAA8 /* MJRefresh */,
 				45DDF1F7D03E8B790BDD3DE6C72F069E /* Pods-KZWUtils_Example */,
 				3C282AAE9F40ACAAC3A96AF977916EB0 /* Pods-KZWUtils_Tests */,
 			);
@@ -832,6 +841,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		07AA5BBF3C85B9F41D9712C3C841BB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB887A374EB945AE242109BE55E68207 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		613DCF47E3DCF34B1B9FFA7BCD094DA0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -839,27 +856,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F8E25A9D5EF30795F9A2079050A998B /* Resources */ = {
+		C8D04ECC98EDCEBEF02C908906A8E026 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F9932E3F0A44E38D55E9FC0AB71EC1 /* KZWUI.bundle in Resources */,
+				9E4B75E1B10E3A5ED9924EB7B2525F6A /* KZWUI.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EA928FD9D511F9E018CE813EF12EF8D /* Resources */ = {
+		CBE28175B7F1571F0BD7FE83412EA06D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				739E68EC38CA6724A215FEC07A4F1172 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4FE23657B019FC77BC4E4D4B83A8269 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CB837173B985374B3EA8CC243DDD174 /* MJRefresh.bundle in Resources */,
+				C6F8D43CD0766F2541160336A73D91DF /* MJRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,71 +882,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		64D96E8ACF5A4AAE6A5133F6E4CACDAC /* Sources */ = {
+		507A965FB86D9420953E6519892E3692 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08E9919995E98E1F857488B6B5AC07B /* MJRefresh-dummy.m in Sources */,
-				3556FFF8104970177B2EFE65348F9C28 /* MJRefreshAutoFooter.m in Sources */,
-				02AE6C1DC800BB997ECD929C0A201755 /* MJRefreshAutoGifFooter.m in Sources */,
-				23E462E5686798BF17E8833FDE715EA3 /* MJRefreshAutoNormalFooter.m in Sources */,
-				3686459811CC3182E7586C9235BB5929 /* MJRefreshAutoStateFooter.m in Sources */,
-				23BCCD5B30B2BFB141EA335222A0B816 /* MJRefreshBackFooter.m in Sources */,
-				6F5B6A4957C45BF0CE0D01F8C937A414 /* MJRefreshBackGifFooter.m in Sources */,
-				ECE59C8B1846494F9B6C80DD858A17A1 /* MJRefreshBackNormalFooter.m in Sources */,
-				E18ED82B70221AE2DDE657BA70ED01CA /* MJRefreshBackStateFooter.m in Sources */,
-				FE926A1CEBCE926412C94ECCB4868AC8 /* MJRefreshComponent.m in Sources */,
-				42F175E2A3EAC8CD32FE652DC6ECAB60 /* MJRefreshConst.m in Sources */,
-				A6EF438D88CF89084156BCAEA904F76A /* MJRefreshFooter.m in Sources */,
-				9B58F453FE906E2302EC6F95EB968404 /* MJRefreshGifHeader.m in Sources */,
-				981A6E4ADE9959CA9BFE636C869815E6 /* MJRefreshHeader.m in Sources */,
-				BDB65E906CF7C7AA00EB9C596093BB67 /* MJRefreshNormalHeader.m in Sources */,
-				544490A4688D8CFCC21E4D13273A9323 /* MJRefreshStateHeader.m in Sources */,
-				5EAB092182CB149758BF7EB26E1198E1 /* NSBundle+MJRefresh.m in Sources */,
-				A0C37F6B0A864EF07282EE5643E65844 /* UIScrollView+MJExtension.m in Sources */,
-				60B1C76BD7BF3DBBDFCAB7671113832F /* UIScrollView+MJRefresh.m in Sources */,
-				E7051A033B9B9D9C8CF0C9B1CB1776BE /* UIView+MJExtension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65C0AA9A6D2258114DE2839A688088B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F11B14CAE9D50254447A910528DA3A69 /* KZWConstants.m in Sources */,
-				F3276C2035F86AF6DF6093FEE19DEDE7 /* KZWCorrectLocation.m in Sources */,
-				608E0D2EBA66321AE1A79DFBDE0551BD /* KZWDebugService.m in Sources */,
-				CBB63B54344495AAE0009D651A912C6A /* KZWEnvironmentManager.m in Sources */,
-				5975D3DBBE6C1D74CF442BB93EAF811F /* KZWImageCacheManager.m in Sources */,
-				2CBF1631125E89651DF88278BCF7C27D /* KZWRSAenscryptString.m in Sources */,
-				D926F56945A40D88CA464BC92BC58740 /* KZWUtils-dummy.m in Sources */,
-				7412C10DAFA14D070F67B266597FDFD4 /* NSError+KZWErrorMessage.m in Sources */,
-				2EC6F9CAFDE8742B7CDE70249A371D19 /* NSObject+Dictionary.m in Sources */,
-				9F0F9FFD6BF0BF7321AFC19E21364A67 /* NSObject+KZWAssociatedObject.m in Sources */,
-				33148D4DE9E259F14F7DB90AE09A2588 /* NSString+KZWData.m in Sources */,
-				F7F367F42E4285A49132D4F6FEDDD056 /* NSString+KZWFoundation.m in Sources */,
-				2F57B8C5641B09D9167E473D16E2C6BC /* NSURL+KZWFoundation.m in Sources */,
-				87532B8427B54B68120A520DE8FC084C /* RSA.m in Sources */,
-				CE875A56670B09BF430C5FAA8D3A5352 /* UIApplication+KZWFoundation.m in Sources */,
-				EA1A273A2F241E744CA7B204DBF91D2E /* UIButton+KZWButton.m in Sources */,
-				FAC87638A6601DFAA4B0CDD8F8C57BF5 /* UIColor+KZWColor.m in Sources */,
-				3AA0CFF38C0FA8EFD01BEEB7AD9D945C /* UIControl+Block.m in Sources */,
-				C1D41F1C3C664760B783483BB0834D72 /* UIImageView+KZWCache.m in Sources */,
-				2C287FD74F86C88D5D38191FAEC41053 /* UILabel+KZWLabel.m in Sources */,
-				9839F9B4C73D61D5432D3FE480AB7C62 /* UILabel+KZWLineSpace.m in Sources */,
-				D0AAA8683A227A9795418DB1E24344DC /* UINavigationController+KZWBackButtonHandler.m in Sources */,
-				73A60AFC629BA6CA0CCF173A23E90DA5 /* UIScrollView+KZWRefresh.m in Sources */,
-				028AAF9B91E40251FFCDE22CA515CAC7 /* UITabBar+CustomBadge.m in Sources */,
-				8CEF128E9B562D929FF373BF7464A962 /* UITabBarItem+WebCache.m in Sources */,
-				1AC38D49410812F9C6405EEF74D5EB08 /* UITableView+KZWTableView.m in Sources */,
-				D909ECB3D24955BB64E64CFDBECFC95E /* UIView+KZWCore.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		86550D16D15B793A0CEC6378CCBD1F53 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C8F787914FE18DA18D7A44E945DC0B63 /* MJRefresh-dummy.m in Sources */,
+				1D9ABD4FBEF071C5640E301DA7232287 /* MJRefreshAutoFooter.m in Sources */,
+				838B02BF6B48A5088A583CF5EE0CA69E /* MJRefreshAutoGifFooter.m in Sources */,
+				3EB694D221BCAAD96900E9D96C04D67E /* MJRefreshAutoNormalFooter.m in Sources */,
+				5E04466587630E0765B8F07762A8A942 /* MJRefreshAutoStateFooter.m in Sources */,
+				2A98735318568E336470FF35B2C8055A /* MJRefreshBackFooter.m in Sources */,
+				3CF8F7665C990EB024547F08024E62A8 /* MJRefreshBackGifFooter.m in Sources */,
+				5A0E6902EFC9CDFA329A0BE536CBA98E /* MJRefreshBackNormalFooter.m in Sources */,
+				BD20C4FB7071D1092934F9A211D63AC9 /* MJRefreshBackStateFooter.m in Sources */,
+				15AF0BEE7C5B73F9FC19EDDB82F87367 /* MJRefreshComponent.m in Sources */,
+				EEC1764C11553FE090DF9A77BF38922E /* MJRefreshConst.m in Sources */,
+				E788E2706A1B96056A3D939F087BFE81 /* MJRefreshFooter.m in Sources */,
+				4DC1713B58776A03536F9635A54EC83D /* MJRefreshGifHeader.m in Sources */,
+				477D8B8AD64234EFCBB8B6BCF6A3A4F3 /* MJRefreshHeader.m in Sources */,
+				368503EC8E240E324B02DB4EF94092EF /* MJRefreshNormalHeader.m in Sources */,
+				2A979B74409B2765B44BEE6635AA10E2 /* MJRefreshStateHeader.m in Sources */,
+				7B6D9D45B8FFD870938A27E83C46E8A9 /* NSBundle+MJRefresh.m in Sources */,
+				E9D6802ED9B58BD8DF8CEF4C1669CBE1 /* UIScrollView+MJExtension.m in Sources */,
+				775122D644CFCC44E54E14AC0055B9A6 /* UIScrollView+MJRefresh.m in Sources */,
+				330615915C5C226750D4887B39AD2CDD /* UIView+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -946,6 +914,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				30EA3A38679AB8C1D71EA85D0F35F797 /* Pods-KZWUtils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58B27AD302961BFC4AC878EE3D707A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABCCB71EE33267CBBFEC55C5E9E0CCD /* KZWConstants.m in Sources */,
+				2A0DDB15EAA2B26A15554F5379C5BDC6 /* KZWCorrectLocation.m in Sources */,
+				93D8E484F76762B31584890AACA45B07 /* KZWDebugService.m in Sources */,
+				52318ADB6A669F82B9AAEA3184F33237 /* KZWEnvironmentManager.m in Sources */,
+				90E0EFF8BBE30B2B681771F42967CDDC /* KZWImageCacheManager.m in Sources */,
+				EB93005CC2D56C867C34648306865D5A /* KZWRSAenscryptString.m in Sources */,
+				74C7D105055E78B35ACB97A897FA9FA0 /* KZWUtils-dummy.m in Sources */,
+				5058438BB3863A987D87DE8D75986231 /* NSObject+Dictionary.m in Sources */,
+				0234AFD81661B037738E587595EE19D4 /* NSObject+KZWAssociatedObject.m in Sources */,
+				73D9052F6C4580F34158F50E7E2DD067 /* NSString+KZWData.m in Sources */,
+				413A75696A06421565DB27E5A69D2C6F /* NSString+KZWFoundation.m in Sources */,
+				9C8FE1B1362553E1AAE49FA23932C60D /* NSURL+KZWFoundation.m in Sources */,
+				7182E2631E61AE5079F7DC6FDD1E617A /* RSA.m in Sources */,
+				660B20CF3777B4F52FD0D7559BEF12BF /* UIApplication+KZWFoundation.m in Sources */,
+				78061F8D5F35259F749B022568BD1DD5 /* UIButton+KZWButton.m in Sources */,
+				D3F1D02CACBAD27CF86B66CD79F72D64 /* UIColor+KZWColor.m in Sources */,
+				15A81FBC0239662067ED7357EBB6F81B /* UIControl+Block.m in Sources */,
+				DB692D8D004D085A7749207EAAD7971D /* UIImageView+KZWCache.m in Sources */,
+				F60146AE7B9AF59F43793BAD0E468767 /* UILabel+KZWLabel.m in Sources */,
+				4D71BB544C1546C80380FECB38563489 /* UILabel+KZWLineSpace.m in Sources */,
+				82BD494597AF0EBC574D71505E7F8E36 /* UINavigationController+KZWBackButtonHandler.m in Sources */,
+				86DB95CD75453CBD72020B9343991625 /* UIScrollView+KZWRefresh.m in Sources */,
+				4D96FAAD275D78A754A22C3FF04937FC /* UITabBar+CustomBadge.m in Sources */,
+				FDC2C43E8F78D46A6108561D32ADA7A4 /* UITabBarItem+WebCache.m in Sources */,
+				FDF915CDB7A845E760484805C70C0849 /* UITableView+KZWTableView.m in Sources */,
+				63D229CF19F65838B79D4CB4F4592129 /* UIView+KZWCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C594DEDCCADC49A723813265F9CF1143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -960,29 +968,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F35470EC3827E786B363CC4A9C7062F /* PBXTargetDependency */ = {
+		08F78CB2004868E56D9F10E31BEC95EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "KZWUtils-KZWUI";
-			target = 7BA938BD822FCDDEE48EE1F3BCD68ADD /* KZWUtils-KZWUI */;
-			targetProxy = 550D0747AAB49764C621711577FCB172 /* PBXContainerItemProxy */;
+			target = 64B0837DDED2C9FABC09203DD825CF7D /* KZWUtils-KZWUI */;
+			targetProxy = F8F38B27B9C5F734BDCDBDCBD4C563D6 /* PBXContainerItemProxy */;
 		};
 		1A705604F23DBC7CBE0A06F7781968BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
-			target = 999B26E42C965B17B6215A56978F403E /* MJRefresh */;
+			target = 65DB8FBF860557721D142D027DC4CAA8 /* MJRefresh */;
 			targetProxy = AE3B539E0BCF7A393F26CA4AA5A66C62 /* PBXContainerItemProxy */;
 		};
 		3026C5399404773300F2ACF99F5B7D51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KZWUtils;
-			target = 9DDCAB0642D3E055443E4318D744DF21 /* KZWUtils */;
+			target = D0A6598F278399E2D3CC51E1FD078917 /* KZWUtils */;
 			targetProxy = AB8E1960D33383D013C462517E55F14B /* PBXContainerItemProxy */;
 		};
-		41C3CA5285ECD203D6F58C3017F56BA5 /* PBXTargetDependency */ = {
+		EC74A4D921A86E4E5CD3DF899D66FA54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
-			target = 999B26E42C965B17B6215A56978F403E /* MJRefresh */;
-			targetProxy = F22560788C0041539C358552D4401448 /* PBXContainerItemProxy */;
+			target = 65DB8FBF860557721D142D027DC4CAA8 /* MJRefresh */;
+			targetProxy = 263F127E3D4AC612CFC998FF06A7BEF2 /* PBXContainerItemProxy */;
 		};
 		FE512D0AC5EB2A996E4D5140F0032077 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -993,38 +1001,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0054971CC67C83A92706A8F9095C5541 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D340CCFB6C0DA8C80FC8A874ACCAC48A /* KZWUtils.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KZWUtils";
-				INFOPLIST_FILE = "Target Support Files/KZWUtils/ResourceBundle-KZWUI-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = KZWUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		0111AC7B7DD482160D4480A561803272 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D340CCFB6C0DA8C80FC8A874ACCAC48A /* KZWUtils.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KZWUtils";
-				INFOPLIST_FILE = "Target Support Files/KZWUtils/ResourceBundle-KZWUI-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = KZWUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		0FAABFD7DAACD534032531E8162930A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3541010AF8CA254CA1EEC4A13F9D1D0E /* Pods-KZWUtils_Example.debug.xcconfig */;
@@ -1057,37 +1033,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		13ED765C63DF72772A97B5CF30BFE460 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 240F5B7917D3F1FDFB931146ECB8CD6F /* MJRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
-				PRODUCT_MODULE_NAME = MJRefresh;
-				PRODUCT_NAME = MJRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		384D6DA689C80517314744E8E2850CB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1122,35 +1067,21 @@
 			};
 			name = Debug;
 		};
-		58A73523736D2474D46BE3D626BE55CC /* Debug */ = {
+		5C63FF3D3962CD225BF76D3BE9D8639B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 240F5B7917D3F1FDFB931146ECB8CD6F /* MJRefresh.xcconfig */;
+			baseConfigurationReference = 960BD7EC04095F1D8802E5F0F272EB12 /* KZWUtils.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KZWUtils";
+				INFOPLIST_FILE = "Target Support Files/KZWUtils/ResourceBundle-KZWUI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
-				PRODUCT_MODULE_NAME = MJRefresh;
-				PRODUCT_NAME = MJRefresh;
+				PRODUCT_NAME = KZWUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		5DD43265884894D43FA4A9980DCFC295 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1186,9 +1117,25 @@
 			};
 			name = Release;
 		};
-		91D8D1F36837E1F98EED08E7425D5B82 /* Debug */ = {
+		71F067FCD97EC39880059B09AA044B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D340CCFB6C0DA8C80FC8A874ACCAC48A /* KZWUtils.xcconfig */;
+			baseConfigurationReference = 960BD7EC04095F1D8802E5F0F272EB12 /* KZWUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KZWUtils";
+				INFOPLIST_FILE = "Target Support Files/KZWUtils/ResourceBundle-KZWUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = KZWUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		90C7D97C33577B9085EE8261F62D234B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240F5B7917D3F1FDFB931146ECB8CD6F /* MJRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1199,22 +1146,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KZWUtils/KZWUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KZWUtils/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KZWUtils/KZWUtils.modulemap";
-				PRODUCT_MODULE_NAME = KZWUtils;
-				PRODUCT_NAME = KZWUtils;
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		91F59B5DCBA3390C364BDF74540FF2D6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1309,6 +1257,36 @@
 			};
 			name = Release;
 		};
+		A4CC93468406BDF925AF87D6C3F6B0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240F5B7917D3F1FDFB931146ECB8CD6F /* MJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1373,9 +1351,39 @@
 			};
 			name = Debug;
 		};
-		F00185BE5EBAC440CB96FE9CD85DD142 /* Release */ = {
+		F4CA02C51B4B13A615D725E8D1C13710 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D340CCFB6C0DA8C80FC8A874ACCAC48A /* KZWUtils.xcconfig */;
+			baseConfigurationReference = 960BD7EC04095F1D8802E5F0F272EB12 /* KZWUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KZWUtils/KZWUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KZWUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KZWUtils/KZWUtils.modulemap";
+				PRODUCT_MODULE_NAME = KZWUtils;
+				PRODUCT_NAME = KZWUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA616D26A192B7CAB9B6408D24BB3B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960BD7EC04095F1D8802E5F0F272EB12 /* KZWUtils.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1407,6 +1415,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		119CA0466C80614D1EF80A6621B09C73 /* Build configuration list for PBXNativeTarget "KZWUtils-KZWUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F067FCD97EC39880059B09AA044B1A /* Debug */,
+				5C63FF3D3962CD225BF76D3BE9D8639B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1416,20 +1433,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		349A42157F19F1807B0484D7EE54AAF5 /* Build configuration list for PBXNativeTarget "KZWUtils" */ = {
+		5150EBF2B136685A05C5FAABE854961A /* Build configuration list for PBXNativeTarget "KZWUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91D8D1F36837E1F98EED08E7425D5B82 /* Debug */,
-				F00185BE5EBAC440CB96FE9CD85DD142 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		68D9EBA883B295C7374D263B2279A2C6 /* Build configuration list for PBXNativeTarget "KZWUtils-KZWUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0054971CC67C83A92706A8F9095C5541 /* Debug */,
-				0111AC7B7DD482160D4480A561803272 /* Release */,
+				F4CA02C51B4B13A615D725E8D1C13710 /* Debug */,
+				FA616D26A192B7CAB9B6408D24BB3B80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1443,20 +1451,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6A963FC61839DCCDADD26FFE8D8EA06A /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CC93468406BDF925AF87D6C3F6B0E7 /* Debug */,
+				90C7D97C33577B9085EE8261F62D234B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		84B68824C1E8A23A73BEFD94B2FDB30F /* Build configuration list for PBXNativeTarget "Pods-KZWUtils_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FAABFD7DAACD534032531E8162930A6 /* Debug */,
 				5DD43265884894D43FA4A9980DCFC295 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CDF4E573404BF8214A37874BCE005161 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58A73523736D2474D46BE3D626BE55CC /* Debug */,
-				13ED765C63DF72772A97B5CF30BFE460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

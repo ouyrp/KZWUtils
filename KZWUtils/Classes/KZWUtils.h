@@ -11,7 +11,6 @@
 #import "KZWConstants.h"
 #import "KZWEnvironmentManager.h"
 #import "KZWImageCacheManager.h"
-#import "NSError+KZWErrorMessage.h"
 #import "NSObject+Dictionary.h"
 #import "NSObject+KZWAssociatedObject.h"
 #import "NSObject+Dictionary.h"
