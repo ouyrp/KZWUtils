@@ -14,8 +14,7 @@
 #import "NSError+KZWErrorMessage.h"
 #import "NSObject+Dictionary.h"
 #import "NSObject+KZWAssociatedObject.h"
-#import "NSObject+KZWAssociatedObject.h"
-#import "NSString+KZWData.h"
+#import "NSObject+Dictionary.h"
 #import "NSString+KZWFoundation.h"
 #import "UIButton+KZWButton.h"
 #import "UIColor+KZWColor.h"
@@ -33,5 +32,7 @@
 #import "KZWDebugService.h"
 #import "KZWRSAenscryptString.h"
 #import "RSA.h"
+#import "UIApplication+KZWFoundation.h"
+#import "NSURL+KZWFoundation.h"
 
 #endif /* Header_h */
