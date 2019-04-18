@@ -1,7 +1,7 @@
 PODS:
-  - KZWUtils (1.0.6):
-    - KZWUtils/Content (= 1.0.6)
-  - KZWUtils/Content (1.0.6):
+  - KZWUtils (2.0.0):
+    - KZWUtils/Content (= 2.0.0)
+  - KZWUtils/Content (2.0.0):
     - MJRefresh
     - SAMKeychain
   - MJRefresh (3.1.15.7)
@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KZWUtils: 2c4055cbfad8b6534bc227ca6f5d9fec5a804a68
+  KZWUtils: 1e0ba13bcd58fcadaa03dd2251d9fac32a00cdc8
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
 
 PODFILE CHECKSUM: ca7c22e21e67e67f04ae4d2b67fb35567da2bdf6
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

@@ -1,6 +1,6 @@
 {
   "name": "KZWUtils",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "summary": "A short description of KZWUtils.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ouyrp/KZWUtils",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ouyrp/KZWUtils.git",
-    "tag": "1.0.6"
+    "tag": "2.0.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -27,6 +27,7 @@
       "resource_bundles": {
         "KZWUI": "KZWUtils/Assets/*.xcassets"
       },
+      "libraries": "resolv",
       "dependencies": {
         "MJRefresh": [
 

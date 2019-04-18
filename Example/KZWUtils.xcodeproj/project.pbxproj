@@ -324,7 +324,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KZWUtils_Example/Pods-KZWUtils_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-KZWUtils_Example/Pods-KZWUtils_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KZWUtils/KZWUtils.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
@@ -339,7 +339,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZWUtils_Example/Pods-KZWUtils_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KZWUtils_Example/Pods-KZWUtils_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9EF69C18A6548BAFE6BA27EE /* [CP] Check Pods Manifest.lock */ = {

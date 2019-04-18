@@ -34,5 +34,7 @@
 #import "UIApplication+KZWFoundation.h"
 #import "NSURL+KZWFoundation.h"
 #import "KZWKeychainUtil.h"
+#import "KZWReachability.h"
+#import "UIDevice+KZWExtension.h"
 
 #endif /* Header_h */
